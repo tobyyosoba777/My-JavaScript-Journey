@@ -1,0 +1,24 @@
+Node is a runtime environment for executing JavaScript code
+
+JavaScript is a Dynamic/ Dynamically Typed Language Meaning the type of value assigned 
+can be changed, Unlike static languages, in dynamically typed languages the typeof value 
+assigned to each variable will be detected on runtime 
+
+Category of types in JavaScript
+Primitives/ Value Types:
+*String
+*Numbers
+*Undefined
+*Boolean
+*Null
+
+
+Reference Types:
+*Object
+*Array
+*Function
+
+
+
+
+
