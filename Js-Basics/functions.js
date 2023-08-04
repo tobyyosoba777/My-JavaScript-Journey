@@ -5,6 +5,12 @@ function greet () {
 
 greet()
 
+function mention(name, age, skin){
+    console.log("i am calling on " + name + ' person is ' + skin + ' in complexion');
+}
+
+mention("tobiloba", 19, "fair")
+
 //when declaring a function you dont need to add the semi colon ; at the end of the curly braces
 //The variable in the function declaration is called the "parameter"
 //whatever value that is passed into the called function is referred to as an argument
@@ -30,3 +36,4 @@ function square(number) {
 }
 
 console.log(square(2));
+

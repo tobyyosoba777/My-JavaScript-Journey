@@ -1,4 +1,4 @@
-//Square Brackets are called array literals and they indicate an empty 
+//Square Brackets are called array literals and they indicate an empty array
 // In JavaScript you can store different types(DataTypes) in an array and the length is dynamic
 //Technically, an array is an object in JavaScript
 //An array is a data structure that we use to represent a list of item
