@@ -33,3 +33,7 @@ for (let i = 10; i >= 1; i--) {
 for (let i = 5; i >= 1; i--) {
     console.log(i);
 }
+
+for (let i=21; i >= 0; i--){
+    if (i % 2 !== 0) console.log(i);
+}
