@@ -102,7 +102,8 @@ function Circle(radius) {
 //Removing new makes it a Global Object also known as the window object and defining global variables is a bad practice that can mess up our code
 // Adding the new keyword when running the function makes it a local object
 
-const another =  Circle(1);
+const another = new Circle(1);
+Circle.name();
 
 
 
