@@ -103,7 +103,29 @@ function Circle(radius) {
 // Adding the new keyword when running the function makes it a local object
 
 const another = new Circle(1);
-Circle.name();
+// Circle.name();
+
+const shape = {
+    type: function(){
+        console.log("Trapezium");
+    },
+    color: function() { console.log("red"); },
+    dimension: 3,
+    createShape: function() {
+        for(i=0; i <= this.dimension; i++) {
+            console.log(i);
+        }
+    },
+
+    deleteShape: function() {
+        for (i= this.dimension; i >= 0; i--) {
+            console.log(i);
+        };
+    }
+};
+
+shape.type();
+shape.deleteShape();
 
 
 
