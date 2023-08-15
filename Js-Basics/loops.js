@@ -5,6 +5,9 @@ for (let i=0; i<5; i++) [
     console.log('Hello World' + i)
 ]
 
+var myVar = 20;
+myVar++;
+console.log(myVar++);
 
 
 for (let i=1; i<=5; i++) {
@@ -37,3 +40,6 @@ for (let i = 5; i >= 1; i--) {
 for (let i=21; i >= 0; i--){
     if (i % 2 !== 0) console.log(i);
 }
+
+var myName = `Tobi`
+console.log(myName);

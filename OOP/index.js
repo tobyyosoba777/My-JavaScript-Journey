@@ -127,7 +127,34 @@ const shape = {
 shape.type();
 shape.deleteShape();
 
-
+const laptop = {
+    make: function (){
+        console.log('HP');
+    },
+    year: function () {
+        console.log(2013);
+    },
+    type: function() {console.log('Elitebook');},
+    model: function() {console.log('8470p');},
+    displayDriver: function() {
+        console.log('Intel HD Graphics 4000');
+    },
+    ramDetails: function() {
+        console.log('Samsung and Hynix 8GB');
+    },
+    cpu: function() {
+        console.log('Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz   2.50 GHz');
+    },
+    hardDisk: function() {
+        console.log('167gb Intel SSD');
+    }
+};
+laptop.year();
+laptop.make();
+laptop.type();
+laptop.model();
+laptop.cpu();
+laptop.hardDisk();
 
 
 
