@@ -142,11 +142,33 @@ console.log(laptop("HP", 2013, "Elitebook 8470p", "8gb", `Intel Core i5 3210m`, 
 //Practicing
 function phone(title, rom, ram) {
     output = "";
-    output += "I am using a " + title + " " + " with " + rom + "gb rom and " + ram + "gb ram";
+    output += "I am using a " + 
+    title + " " + " with " + 
+    rom + "gb rom and " + 
+    ram + "gb ram";
     
     return output;
 }
 
 console.log(phone("Infinix Smart 5", 32, 2));
+
+
+
+function Card(carrier, amount) {
+    output = "";
+    output += "I just loaded an " + carrier + " " + Card.name + " Of " + amount + " Naira";
+    
+    return output;
+}
+
+console.log(Card("MTN", 1000));
+
+function networkProvider(carrier, coverage) {
+    output = "";
+    output += carrier + " " + coverage
+
+    return output;
+}
+console.log(networkProvider("MTN", "4G LTE"));
 
 
