@@ -98,8 +98,8 @@ var arrayItem = ["hello", "Word"];
 arrayItem.push("Tobi", "Here");
 console.log(arrayItem);
 
-//Delete Items From An Array Using Pop
+//Delete The Last Item From An Array Using Pop
 definedArray = [1,2,4];
 removedFromDefinedArray = definedArray.pop();
-console.log(removedFromDefinedArray);
-console.log(definedArray);
+console.log(removedFromDefinedArray); //This equals 4, the last item that was popped off
+console.log(definedArray); //This equals 1,2 the items left
