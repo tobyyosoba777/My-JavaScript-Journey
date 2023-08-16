@@ -84,3 +84,16 @@ arrayChallenge[3][2] = 16;
 console.log(arrayChallenge[3][0]);
 console.log(arrayChallenge[3][1]);
 console.log(arrayChallenge[3]);
+console.log(arrayChallenge[3][0][0]);
+console.log(arrayChallenge[3][0][1]);
+console.log(arrayChallenge[3][0][2]);
+
+//Manipulate Arrays with Push
+var arrayItems = ["Tobiloba", "Osoba", "Macbook"];
+arrayItems.push("Hello" , ["Gideon"]);  //push is a method of the array object() i think.......
+console.log(arrayItems);
+
+//Push is used to 
+var arrayItem = ["hello", "Word"];
+arrayItem.push("Tobi", "Here");
+console.log(arrayItem);
