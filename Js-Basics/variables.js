@@ -102,16 +102,27 @@ console.log(wordBlanks("Tobiloba", "Handsome", "Code", "Effectively"));
 
 
 
+function prevLaptop(make, year, model, ram, processor, displayDriver) {
+    output = "";
+    output += "I once used an " + make + " " + model + " Laptop with an " + processor + " Processor and " 
+    + displayDriver + " display driver" + " with " + ram + " of RAM " + year + " model" ;
 
+    return output;
+}
+console.log(prevLaptop("HP", 2012, "Elitebook 8460p", "8gb", `Intel Core i5 2520m`, `AMD Radeon 6470m` ));
+
+
+
+//Another Example
 function laptop(make, year, model, ram, processor, displayDriver) {
     output = "";
-    output += "I use a " + make + " " + model + " Laptop with an " + processor + " Processor and " +
-    " " + displayDriver + " display driver" + " with " + ram + " of RAM " + year + " model" ;
+    output += "I use a " + make + " " + model + " Laptop with an " + processor + " Processor and " 
+    + displayDriver + " display driver" + " with " + ram + " of RAM " + year + " model" ;
 
     return output;
 }
 
-console.log(laptop("HP", 2012, "Elitebook 8470p", "8gb", `Intel Core i5 3210m`, `Intel HD Graphics 4000` ));
+console.log(laptop("HP", 2013, "Elitebook 8470p", "8gb", `Intel Core i5 3210m`, `Intel HD Graphics 4000` ));
 
 
 
