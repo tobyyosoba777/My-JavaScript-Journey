@@ -88,18 +88,55 @@ console.log(arrayChallenge[3][0][0]);
 console.log(arrayChallenge[3][0][1]);
 console.log(arrayChallenge[3][0][2]);
 
+
 //Manipulate Arrays with Push
 var arrayItems = ["Tobiloba", "Osoba", "Macbook"];
 arrayItems.push("Hello" , ["Gideon"]);  //push is a method of an array object() i think.......
 console.log(arrayItems);
 
-//Push is used to add Items to an array after it has been defined
+
+//Push is used to add Items to the end of an array after it has been defined
 var arrayItem = ["hello", "Word"];
 arrayItem.push("Tobi", "Here");
 console.log(arrayItem);
+
 
 //Delete The Last Item From An Array Using Pop
 definedArray = [1,2,4];
 removedFromDefinedArray = definedArray.pop();
 console.log(removedFromDefinedArray); //This equals 4, the last item that was popped off
 console.log(definedArray); //This equals 1,2 the items left
+
+arrayExample = [["Tobi", 19], ["Michael", 13]];
+DeletedExample = arrayExample.pop();
+console.log(arrayExample);
+
+arrayTrial = [10,20,30];
+deletedArrayTrial = arrayTrial.pop();
+console.log(deletedArrayTrial);
+
+
+
+//Manipulate arrays with the shift() method
+//Shift is very similar to the pop() method but while the pop deletes the last item, the shift deletes the first item in the array
+var ourNewArray = ["Tobiloba", "Osoba", 19, "Hp Elitebook 8470p"];
+var ourNewArrayDeleted = ourNewArray.shift();
+console.log(ourNewArrayDeleted);
+console.log(ourNewArray);
+
+//Using a 2 dimensional array
+var testArray = [["Tobiloba", 19], ["Michael", 13]];
+var testArrayDeleted = testArray.shift();
+console.log(testArray);
+console.log(testArrayDeleted);
+
+//Unshift() method used to add items to the beginning of an array
+arrayNew = ["Tobiloba", 19, "Boy"];
+oneone = arrayNew.unshift("Osoba");
+console.log(arrayNew);
+
+//Remive stimpson and add array as the first item on the array
+var practicearray = ["Stimpson", "J", "Cat"]
+practicearray.shift();
+practicearray.unshift("happy")
+console.log(practicearray);

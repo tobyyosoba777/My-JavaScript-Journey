@@ -35,5 +35,8 @@ Push is an array method used to add items to an array after the array has been a
 
 Pop() Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 
+Shift() is very similar to the pop() method but while the pop deletes the last item, the shift deletes the first item in the array
+unshift() is very similar to the push() method but while the push() adds itesm to the end of an array, the unshift() adds items to the
+beginning of an array 
 
 
