@@ -99,4 +99,7 @@ arrayItem.push("Tobi", "Here");
 console.log(arrayItem);
 
 //Delete Items From An Array Using Pop
-definedArray = 
+definedArray = [1,2,4];
+removedFromDefinedArray = definedArray.pop();
+console.log(removedFromDefinedArray);
+console.log(definedArray);
