@@ -25,9 +25,17 @@ console.log(myStr);
 var firstNameLength = 0;
 var firstName = "Ada";
 
-var statement = "The string is "
-firstNameLength = statement + firstName.length + " Characters Long";
+firstNameLength = "The string is " + firstName.length + " Characters Long";
 console.log(firstNameLength);
+
+
+
+var middleName = "Gideon";
+var middleNameLength = 0;
+
+middleNameLength = "The string is " + middleName.length + " Characters long";
+console.log(middleNameLength);
+
 
 
 var lastNameLength = 0;
@@ -73,6 +81,10 @@ var middleName = "Gideon";
 var lastletterofmiddlename = middleName[middleName.length - 1];
 console.log(lastletterofmiddlename);
 
+var firstName = "Tobiloba";
+lastLetterOfFirstName = firstName[firstName.length - 1];
+console.log(lastLetterOfFirstName);
+
 var lname = "Osoba";
 var lastLetterOfLname = lname[lname.length - 1];
 
@@ -88,6 +100,9 @@ cname = "Towbbie"
 lastLetterOfCname = cname[cname.length - 3];
 console.log(lastLetterOfCname);
 
+phone1 = "Infinix smart5";
+thirdbeforelast = phone1[phone1.length - 3];
+console.log(thirdbeforelast);
 
 
 
@@ -124,5 +139,14 @@ function laptop(make, year, model, ram, processor, displayDriver) {
 
 console.log(laptop("HP", 2013, "Elitebook 8470p", "8gb", `Intel Core i5 3210m`, `Intel HD Graphics 4000` ));
 
+//Practicing
+function phone(title, rom, ram) {
+    output = "";
+    output += "I am using a " + title + " " + " with " + rom + "gb rom and " + ram + "gb ram";
+    
+    return output;
+}
+
+console.log(phone("Infinix Smart 5", 32, 2));
 
 
