@@ -30,8 +30,9 @@ console.log(selectedColors.length);   Will Return the length of the array
 
 
 
+//Array Manipulation
 Push is an array method used to add items to an array after the array has been assigned its values
-
+pop() used to remove items from an array 
 
 
 

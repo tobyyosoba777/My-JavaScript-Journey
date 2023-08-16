@@ -90,10 +90,13 @@ console.log(arrayChallenge[3][0][2]);
 
 //Manipulate Arrays with Push
 var arrayItems = ["Tobiloba", "Osoba", "Macbook"];
-arrayItems.push("Hello" , ["Gideon"]);  //push is a method of the array object() i think.......
+arrayItems.push("Hello" , ["Gideon"]);  //push is a method of an array object() i think.......
 console.log(arrayItems);
 
-//Push is used to 
+//Push is used to add Items to an array after it has been defined
 var arrayItem = ["hello", "Word"];
 arrayItem.push("Tobi", "Here");
 console.log(arrayItem);
+
+//Delete Items From An Array Using Pop
+definedArray = 
