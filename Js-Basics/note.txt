@@ -20,6 +20,17 @@ Reference Types:
 
 
 Arrays:
+Square Brackets are called array literals and they indicate an empty array
+In JavaScript you can store different types(DataTypes) in an array and the length is dynamic
+Technically, an array is an object in JavaScript
+An array is a data structure that we use to represent a list of item
+
+let selectedColors = ['red', 'blue'];
+console.log(selectedColors.length);   Will Return the length of the array
+
+
+
+Push is an array method used to add items to an array after the array has been assigned its values
 
 
 
