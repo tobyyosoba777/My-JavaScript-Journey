@@ -15,3 +15,8 @@ function functionwithargs(a,b,c) {
     console.log(a+b+c);
 }
 functionwithargs(20,48,39);
+
+function operationSum(a,b,c) {
+    console.log(a+c * (b));
+}
+operationSum(2,5,10); //Will follow BODMAS rule.
