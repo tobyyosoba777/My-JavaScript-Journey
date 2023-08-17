@@ -25,3 +25,13 @@ function ageCalculator(year) {
 }
 
 ageCalculator(2000);
+
+
+function birthYearCalculator(age) {
+    output = 0;
+    output += 2023 - age;
+
+    console.log("You were born in the year " + "'" + output + "'");
+}
+birthYearCalculator(19)
+
