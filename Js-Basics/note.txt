@@ -37,6 +37,6 @@ Pop() Removes the last element from an array and returns it. If the array is emp
 
 Shift() is very similar to the pop() method but while the pop deletes the last item, the shift deletes the first item in the array
 unshift() is very similar to the push() method but while the push() adds itesm to the end of an array, the unshift() adds items to the
-beginning of an array 
+beginning of an array.
 
 
