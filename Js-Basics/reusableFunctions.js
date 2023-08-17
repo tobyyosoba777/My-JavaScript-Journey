@@ -32,7 +32,9 @@ operationSum(2,5,10); //Will follow BODMAS rule.
 var myGlobal = 10;
 
 function fun1() {
-    oopsGlobal = 5;
+    oopsGlobal = 5; 
+    //If you dont use var to define a variable inside a function 
+    //it becomes a global variable that can be accessed in another function
 }
 
 function fun2() {
