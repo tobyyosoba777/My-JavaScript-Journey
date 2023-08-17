@@ -1,6 +1,14 @@
 //Write a JavaScript Function to return the age of a person and it should take the year of birth
 function age_calculator(year) {
-    console.log("you are " + 2023 - Number(year));
+    output = 0;
+    output += 2023 - year;
+    console.log("You are " + output + " years old");
+
 }
 
-age_calculator(Number(2010))
+age_calculator(2004);
+
+ageCalc = function(year) {
+    
+
+}
