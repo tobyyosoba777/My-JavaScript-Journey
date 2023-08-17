@@ -140,3 +140,10 @@ var practicearray = ["Stimpson", "J", "Cat"]
 practicearray.shift();
 practicearray.unshift("happy")
 console.log(practicearray);
+
+//Create an array with cmbj 3232
+
+var myList = [["Cereal", 3], ["Milk", 2], ["Banana", 3], ["Juice", 2]];
+console.log(myList);
+console.log(myList.unshift(["Apples", 4]));
+console.log(myList);
