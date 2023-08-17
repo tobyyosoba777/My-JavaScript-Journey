@@ -8,7 +8,20 @@ function age_calculator(year) {
 
 age_calculator(2004);
 
-ageCalc = function(year) {
-    
+function ageCalc(year) {
+    output = 0;
+    output += 2023 - year;
 
+    console.log("You are approximately " + output + " of age");
 }
+
+ageCalc(2004);
+
+function ageCalculator(year) {
+    output = 0;
+    output+= 2023 - year;
+
+    console.log("You are " + output + " years of age"); 
+}
+
+ageCalculator(2000);
