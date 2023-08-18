@@ -63,7 +63,7 @@ function nextinline(arr, item) {
 var arrayy = [2,4,6,8,10];
 console.log("Before: " + JSON.stringify(arrayy));
 console.log(nextInLine(arrayy, 12));
-console.log("After: " + JSON.stringify(arrayy))
+console.log("After: " + JSON.stringify(arrayy));
 
 
 
@@ -81,3 +81,23 @@ console.log(nextline(testingArray, 6));
 console.log("after: " + JSON.stringify(testingArray));
 
 
+function nextLinee(arr, item) {
+
+    arr.push(item);
+    return arr.shift();
+}
+
+arraY = ["Tobi", "Osoba", 19];
+console.log("Before: " + JSON.stringify(arraY));
+console.log(nextLinee(arraY, "Gideon"));
+console.log("After: " + JSON.stringify(arraY));
+
+function addLine(arr, item) {
+    arr.push(item);
+    return arr.shift();
+}
+
+arrayyy = [1,2,3,4,5];
+console.log("Before: " + JSON.stringify(arrayyy));
+console.log(addLine(arrayyy, 6));
+console.log("After: " + JSON.stringify(arrayyy));
