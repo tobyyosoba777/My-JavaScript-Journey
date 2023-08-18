@@ -50,3 +50,12 @@ function fun2() {
 }
 fun1();
 fun2();
+
+
+function myLocalScope() {
+    var myVar = 5;
+    console.log(myVar);
+}
+
+myLocalScope();
+// console.log(myVar);
