@@ -93,3 +93,7 @@ function myOutfit() {
 console.log(myOutfit());
 
 //Return a value from a function with return statement
+function minusSeven(num) {
+    return num - 7;
+}
+console.log(minusSeven(19));
