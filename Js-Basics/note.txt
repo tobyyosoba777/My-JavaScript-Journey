@@ -39,4 +39,6 @@ Shift() is very similar to the pop() method but while the pop deletes the last i
 unshift() is very similar to the push() method but while the push() adds itesm to the end of an array, the unshift() adds items to the
 beginning of an array..
 
+JSON.stringify() is a method used to change an array to a string
+
 

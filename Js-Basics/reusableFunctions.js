@@ -97,3 +97,23 @@ function minusSeven(num) {
     return num - 7;
 }
 console.log(minusSeven(19));
+
+function timesFive(num) {
+    return num * 5;
+}
+console.log(timesFive(5));
+
+
+//Understanding Undefined Value Returned From a Function
+var a = 0;
+function addThree() {
+    a = a + 3;
+}
+console.log(addThree(3)) //Returns undefined because no return statement in the function 
+
+
+var changed = 0;
+function processArg(num) {
+    return (num + 5) / 3;
+}
+console.log(processArg(10));

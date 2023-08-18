@@ -37,3 +37,4 @@ function square(number) {
 
 console.log(square(2));
 
+//Create a function to 
