@@ -50,3 +50,34 @@ var testArr = [1,2,3,4,5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
+
+
+
+//Another One
+function nextinline(arr, item) {
+
+    arr.push(item);
+    return arr.shift();
+}
+
+var arrayy = [2,4,6,8,10];
+console.log("Before: " + JSON.stringify(arrayy));
+console.log(nextInLine(arrayy, 12));
+console.log("After: " + JSON.stringify(arrayy))
+
+
+
+//Second One
+function nextline(arr, item) {
+
+    arr.push(item);
+    return arr.shift();
+}
+
+testingArray = [0,1,2,3,4,5]
+
+console.log("before: " + JSON.stringify(testingArray));
+console.log(nextline(testingArray, 6));
+console.log("after: " + JSON.stringify(testingArray));
+
+
