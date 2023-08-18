@@ -80,3 +80,14 @@ function fun2() {
 
 fun1();
 fun2();
+
+//If you define a local and global variable with the same name, the local variable takes precedence over the global variable
+
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+
+    return outerWear;
+}
+
+console.log(myOutfit());
