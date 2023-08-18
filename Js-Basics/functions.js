@@ -34,7 +34,19 @@ greets("Tobi" , "Osoba")
 function square(number) {
     return number * number;
 }
-
 console.log(square(2));
 
-//Create a function to 
+
+
+
+//Create a function to modify an array by deleteing the first number and adding a last number
+function nextInLine(arr, item) {
+    //Code to be executed in the function
+    arr.push(item);
+    return arr.shift();
+}
+
+var testArr = [1,2,3,4,5];
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
