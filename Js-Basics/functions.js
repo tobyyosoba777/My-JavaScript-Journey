@@ -92,6 +92,8 @@ console.log("Before: " + JSON.stringify(arraY));
 console.log(nextLinee(arraY, "Gideon"));
 console.log("After: " + JSON.stringify(arraY));
 
+
+
 function addLine(arr, item) {
     arr.push(item);
     return arr.shift();
