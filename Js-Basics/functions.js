@@ -103,3 +103,16 @@ arrayyy = [1,2,3,4,5];
 console.log("Before: " + JSON.stringify(arrayyy));
 console.log(addLine(arrayyy, 6));
 console.log("After: " + JSON.stringify(arrayyy));
+
+
+
+function addItem(arr, item) {
+    arr.push(item);
+    return arr.shift();
+}
+
+array = [1,2,3,4,5];
+
+console.log("Before: " + JSON.stringify(array));
+console.log(addItem(array, 6));
+console.log("After: " + JSON.stringify(array));
