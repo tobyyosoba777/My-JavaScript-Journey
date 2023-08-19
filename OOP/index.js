@@ -85,7 +85,7 @@ function createCircle(radius) {
     };
 }
 
-const circlee = createCircle(1);
+const circlee = createCircle();
 circlee.draw();
 
 
@@ -104,6 +104,8 @@ function Circle(radius) {
 
 const another = new Circle(1);
 // Circle.name();
+
+
 
 const shape = {
     type: function(){
@@ -126,6 +128,37 @@ const shape = {
 
 shape.type();
 shape.deleteShape();
+
+
+
+const shapeNew = {
+    type: function() {
+        console.log("Rhombus");
+    },
+    color: function() {console.log("Blue"); },
+    dimensions: 4,
+    drawShape: function() {
+        for(i=0; i<=this.dimensions; i++) {
+            console.log(i);
+        }
+    },
+
+    deleteShape: function() {
+        for(i=this.dimensions; i >= 0; i--) {
+            console.log(i);
+        }
+    }
+}
+shapeNew.type();
+shapeNew.color();
+shapeNew.drawShape();
+shapeNew.deleteShape();
+
+
+
+
+
+
 
 const laptop = {
     make: function (){
@@ -155,6 +188,8 @@ laptop.type();
 laptop.model();
 laptop.cpu();
 laptop.hardDisk();
+
+
 
 
 
