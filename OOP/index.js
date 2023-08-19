@@ -138,13 +138,13 @@ const shapeNew = {
     color: function() {console.log("Blue"); },
     dimensions: 4,
     drawShape: function() {
-        for(i=0; i<=this.dimensions; i++) {
+        for(i=1; i<=this.dimensions; i++) {
             console.log(i);
         }
     },
 
     deleteShape: function() {
-        for(i=this.dimensions; i >= 0; i--) {
+        for(i=this.dimensions; i >= 1; i--) {
             console.log(i);
         }
     }
