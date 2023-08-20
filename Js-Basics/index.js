@@ -12,3 +12,9 @@ console.log(name);
 
 let firstName = "Tobi";
 let lastName = "Osoba";
+
+
+//Fetch Api
+fetch('https://reqres.in/api/users')
+    .then(res => console.log(res))
+
