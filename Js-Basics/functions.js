@@ -127,4 +127,6 @@ function secondLine(arr, item) {
 
 array = [1,2,3,4,5];
 console.log("Before: " + JSON.stringify(array));
+console.log(secondLine(array, 6));
+console.log("After: " + JSON.stringify(array));
 
