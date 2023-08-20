@@ -116,3 +116,15 @@ array = [1,2,3,4,5];
 console.log("Before: " + JSON.stringify(array));
 console.log(addItem(array, 6));
 console.log("After: " + JSON.stringify(array));
+
+
+
+
+function secondLine(arr, item) {
+    arr.push(item);
+    return arr.shift();
+}
+
+array = [1,2,3,4,5];
+console.log("Before: " + JSON.stringify(array));
+
