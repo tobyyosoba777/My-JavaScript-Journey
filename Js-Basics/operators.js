@@ -86,3 +86,37 @@ function testlogicalOr(val) {
 }
 console.log(testlogicalOr(21));
 
+
+
+function testsum(val) {
+    if (val === 12 || val == 12) {
+        return "Value is either 12 or '12' ";
+    }
+    else {
+        return "value is not equal to 12 or at least have a string type";
+    }
+} 
+console.log(testsum('12'));
+
+
+//Challenge
+
+function checkValidity(val) {
+    if (val < 5) {
+        return "tiny";
+    }
+    else if (val < 10) {
+        return "small";
+    }
+    else if (val < 15) {
+        return "Medium";
+    }
+    else if (val < 20 ) {
+        return "Large";
+    }
+    else if (val >= 20) {
+        return "Huge";
+    }
+}
+console.log(checkValidity(20));
+
