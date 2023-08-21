@@ -130,3 +130,14 @@ console.log("Before: " + JSON.stringify(array));
 console.log(secondLine(array, 6));
 console.log("After: " + JSON.stringify(array));
 
+
+
+function lineSecond(arr, item) {
+    arr.push(item);
+    return arr.shift();
+}
+
+array = [1,2,3,4,5,6];
+console.log("Before: " + JSON.stringify(array));
+console.log(lineSecond(array, 7));
+console.log("After: " + JSON.stringify(array));

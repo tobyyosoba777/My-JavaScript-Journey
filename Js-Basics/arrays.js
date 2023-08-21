@@ -144,7 +144,7 @@ console.log(practicearray);
 //Create an array with cmbj 3232
 
 var myList = [["Cereal", 3], ["Milk", 2], ["Banana", 3], ["Juice", 2]];
-console.log(myList);
+console.log(JSON.stringify(myList));
 console.log(myList.unshift(["Apples", 4]));
 console.log(myList);
 console.log(JSON.stringify(myList)); //This will return the exact items contained in the array
