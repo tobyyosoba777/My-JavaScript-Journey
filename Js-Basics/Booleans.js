@@ -42,3 +42,17 @@ function trueFalse(wasThatTrue) {
     }
 }
 console.log(trueFalse(true));
+
+
+function wasthateventrue(trueorfalse) {
+    if (wasthateventrue == true) {
+        return "true";
+    }
+    else {
+        return "false";
+    }
+}
+
+wasthateventrue(false);
+console.log(wasthateventrue(false));
+
