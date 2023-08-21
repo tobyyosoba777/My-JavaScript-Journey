@@ -32,14 +32,39 @@ console.log(compareEquality(10, 10));
 
 
 //Logical operator
+//The ampersand operator (&&) is used to run 2 if statements in a single specification
 
 function testLogicalAnd(val) {
     if (val <= 50) {
         if (val >= 25) {
-            return "Yes"
+            return "within the range of 25 - 50"
         }
     }
     else {
-        return "No";
+        return "Not within the range of 25 - 50";
     }
 }
+
+console.log(testLogicalAnd(50));
+
+
+
+function testlogicalAnd(val) {
+    if (val <= 50 && val >= 25) {
+        return "Value is within the range of 25-50";
+    }
+    else if (val <= 75 && val > 50) {
+        return "Value is within 51 and 75";
+    }
+    else if (val <= 100 && val > 75) {
+        return "Value withing the range of 76 and 100";
+    }
+    else if (val <= 125 && val > 100) {
+        return "Value within the range of 101 and 125"
+    }
+    else if (val <= 150 && val > 125) {
+        return ""
+    }
+}
+console.log(testlogicalAnd(101));
+
