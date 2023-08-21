@@ -68,3 +68,21 @@ function testlogicalAnd(val) {
 }
 console.log(testlogicalAnd(101));
 
+
+
+
+//Logical or operator 
+
+function testlogicalOr(val) {
+    if (val < 10 || val > 20) {
+        return "value not within 10 or 20";
+    }
+    else if (val >= 10 && val <= 20) {
+        return("Value is within 10 and 20");
+    }
+    else {
+        return "Null";
+    }
+}
+console.log(testlogicalOr(21));
+
