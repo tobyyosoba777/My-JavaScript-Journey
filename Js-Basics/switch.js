@@ -1,0 +1,1 @@
+//Switch case in JavaScript
