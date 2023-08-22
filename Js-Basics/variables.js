@@ -171,12 +171,12 @@ function networkProvider(carrier, coverage) {
 }
 console.log(networkProvider("MTN", "4G LTE"));
 
-function software(title, version) {
+function software(title, version, build) {
     output = "";
-    output += title + " " + version;
+    output += title + " " + version + " " + build;
 
     return output;
 }
-console.log(software("Windows", 11 ));
+console.log(software("Windows", 11, "Pro" ));
 
 
