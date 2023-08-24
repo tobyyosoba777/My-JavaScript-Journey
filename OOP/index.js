@@ -159,6 +159,35 @@ shapeNew.deleteShape();
 
 
 
+const drive = {
+    make: function() {
+        console.log("Intel")
+    },
+    driveType: function() {
+        console.log("SSD")
+    },
+    storageCapactity: function() {console.log("180gb")},
+    dimension: 4,
+    drawDrive: function() {
+        for(i=0; i<=this.dimension; i++) {
+            console.log(i)
+        }
+    },
+
+    deleteDrive: function() {
+        for (i=this.dimension; i<=0; i--) {
+            console.log(i)
+        }
+    }
+}
+
+
+drive.make();
+drive.driveType();
+drive.storageCapactity();
+drive.drawDrive();
+
+
 
 const laptop = {
     make: function (){
