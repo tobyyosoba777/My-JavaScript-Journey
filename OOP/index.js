@@ -186,6 +186,7 @@ drive.make();
 drive.driveType();
 drive.storageCapactity();
 drive.drawDrive();
+// drive.dimension(); wont work because it was not given a console.log() function
 
 
 
