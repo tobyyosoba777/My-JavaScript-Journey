@@ -162,3 +162,4 @@ array = [1,2,3,4,5,6];
 console.log("Before: " + JSON.stringify(array));
 console.log(pushArr(array, 7));
 console.log("after: " + JSON.stringify(array));
+//I have nastered this
