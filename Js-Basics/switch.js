@@ -10,3 +10,11 @@ function caseInSwitch(val) {
             answer = "beta"; 
     }
 }
+
+function caseInSwitch(val) {
+    var answer = "";
+    switch(val) {
+        case 1: 
+            
+    }
+}
