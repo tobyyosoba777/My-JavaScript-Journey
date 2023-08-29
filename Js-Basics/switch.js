@@ -7,7 +7,9 @@ function caseInSwitch(val) {
         case 1: 
             answer = "alpha";
         case 2:
-            answer = "beta"; 
+            answer = "beta";
+        case 3:
+            answer = "gamma";
     }
 }
 
