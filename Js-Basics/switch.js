@@ -10,6 +10,9 @@ function caseInSwitch(val) {
             answer = "beta";
         case 3:
             answer = "gamma";
+
+        case 4:
+            answer = "delta";
     }
 }
 
