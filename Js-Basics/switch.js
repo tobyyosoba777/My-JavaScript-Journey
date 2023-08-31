@@ -18,9 +18,8 @@ function caseInSwitch(val) {
             answer = "delta";
             break;
     }
-
     return answer;
-
+    
 }
 
 function caseInSwitch(val) {
