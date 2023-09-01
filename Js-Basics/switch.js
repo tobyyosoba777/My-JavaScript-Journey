@@ -21,11 +21,4 @@ function caseInSwitch(val) {
     return answer;
     
 }
-
-function caseInSwitch(val) {
-    var answer = "";
-    switch(val) {
-        case 1: 
-            
-    }
-}
+console.log(caseInSwitch(2));
