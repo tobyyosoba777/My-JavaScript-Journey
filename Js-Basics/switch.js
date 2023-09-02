@@ -21,4 +21,6 @@ function caseInSwitch(val) {
     return answer;
     
 }
+console.log(caseInSwitch(3));
 console.log(caseInSwitch(2));
+
