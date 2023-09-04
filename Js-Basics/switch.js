@@ -15,7 +15,7 @@ function caseInSwitch(val) {
             break;
 
         case 4:
-            answer = "delta";
+            answer = "deltaa";
             break;
     }
     return answer;
