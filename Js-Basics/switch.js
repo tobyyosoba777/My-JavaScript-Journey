@@ -138,7 +138,10 @@ function chainToSwitch(val) {
             answer = "Missed me by this much!";
             break;
         case 7:
-            answer = "Ate Nine"
+            answer = "Ate Nine";
+            break;
 
     }
+    return answer;
 }
+console.log(chainToSwitch(99));
