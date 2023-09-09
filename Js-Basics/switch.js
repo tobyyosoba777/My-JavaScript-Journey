@@ -144,4 +144,4 @@ function chainToSwitch(val) {
     }
     return answer;
 }
-console.log(chainToSwitch(99));
+console.log(chainToSwitch(7));
