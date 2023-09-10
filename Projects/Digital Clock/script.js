@@ -12,6 +12,10 @@ function displayTime() {
         session.innerHTML = 'AM'
     }
 
+    if(hours < 10) {
+        document.getElementById('hours').innerHTML = "0" + hours;
+    }
+
     
     if(hours > 12) {
         hours = hours - 12;
