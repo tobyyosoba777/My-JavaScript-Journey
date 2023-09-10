@@ -145,3 +145,22 @@ function chainToSwitch(val) {
     return answer;
 }
 console.log(chainToSwitch(42));
+
+function switc(val) {
+    var answer = "";
+    switch(val){
+        case 1:
+            answer = "hello";
+            break;
+        case 2:
+            answer = "whats up";
+            break
+        case 3:
+            answer = "yo";
+            break;
+            default:
+                answer = "There are only cases 1,2,3";
+    }
+    return answer;
+}
+console.log(switc(2));
