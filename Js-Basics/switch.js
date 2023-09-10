@@ -154,7 +154,7 @@ function switc(val) {
             break;
         case 2:
             answer = "whats up";
-            break
+            break;
         case 3:
             answer = "yo";
             break;
