@@ -19,10 +19,10 @@ body {
     font-size: 70px;
 }
 
-@media screen and(max-width: 1080px) {
+@media screen and (max-width: 1080px) {
     .container {
-        font-size: 26px;
-        font-weight: lighter;
+        font-size: 30px;
+        font-weight: normal;
     }
     
 }
