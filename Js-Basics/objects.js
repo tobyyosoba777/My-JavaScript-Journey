@@ -75,6 +75,55 @@ console.log(testObj[playerNumber]);
 testob[12] = 'Namah';
 console.log(testob[12]);
 
+//Adding properties to our object
 testObj.namme = "nonnnn";
 
 console.log(testObj.namme);
+
+//Deleting properties from our object
+delete myDog.friends;
+console.log(myDog.friends); //This will return undefined because the property has been deleted from line 84
+
+
+function phoneticLookup(val){
+    var result = "";
+
+    var lookup = {
+        "alpha": "Adams",
+        "bravo": "Boston",
+        "charlie": "Chicago",
+        "delta": "Denver",
+        "echo": "Easy",
+        "foxtrot": "Frank"
+    }
+    result = lookup[val];
+    return result;
+};
+console.log(phoneticLookup("delta"))
+
+
+
+function miniDictionary(val) {
+    var output = "";
+    var randomWordObject = {
+        "apple": "a round fruit with red, yellow, or green skin and firm white flesh",
+        "book": "a written or printed work consisting of pages glued or sewn together along one side and bound in covers",
+        "car": "a four-wheeled road vehicle that is powered by an engine and is able to carry a small number of people",
+        "dog": "a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, and a barking, howling, or whining voice",
+        "computer": "an electronic device for storing and processing data, typically in binary form, according to instructions given to it in a variable program",
+        "Serendipity": "The occurrence and development of events by chance in a happy or beneficial way.",
+        "Ephemeral": "Lasting for a very short time.",
+        "Ubiquitous": "Present, appearing, or found everywhere.",
+        "Sycophant": "A person who acts obsequiously towards someone important in order to gain advantage.",
+        "Esoteric": "Intended for or likely to be understood by only a small number of people with a specialized knowledge or interest.",
+        "Quixotic": "Exceedingly idealistic; unrealistic and impractical.",
+        "Nefarious": "Wicked, villainous, or criminal.",
+        "Panacea": "A solution or remedy for all difficulties or diseases.",
+        "Cacophony": "A harsh, discordant mixture of sounds.",
+        "Sycophant": "A person who acts obsequiously towards someone important in order to gain advantage."
+        };
+      output = randomWordObject[val];
+      return output;
+}
+
+console.log(miniDictionary("dog"));
