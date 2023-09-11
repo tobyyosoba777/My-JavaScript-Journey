@@ -164,3 +164,5 @@ function switc(val) {
     return answer;
 }
 console.log(switc(2));
+
+function isslessthan(a,b)

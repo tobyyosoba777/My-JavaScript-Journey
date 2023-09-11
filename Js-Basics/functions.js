@@ -162,4 +162,26 @@ array = [1,2,3,4,5,6];
 console.log("Before: " + JSON.stringify(array));
 console.log(pushArr(array, 7));
 console.log("after: " + JSON.stringify(array));
-//I have nastered this completely
+
+
+//Function to return true or false based on the condition
+function isLessThan(a, b){
+    if (a < b) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(isLessThan(10, 15));
+
+
+
+//a better way to do this
+function isLess(a,b){
+    return a < b;
+}
+console.log(isLess(0.6, Math.round(0.5)));
+
+
+//I have mastered this completely
