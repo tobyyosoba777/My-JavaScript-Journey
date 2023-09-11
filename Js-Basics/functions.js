@@ -184,4 +184,4 @@ function isLess(a,b){
 console.log(isLess(0.6, Math.round(0.5)));
 
 
-//I have mastered this completely
+//I have mastered this
