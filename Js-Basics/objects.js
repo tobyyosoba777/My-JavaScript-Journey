@@ -60,3 +60,21 @@ var testObj = {
 var entree = testObj["an entree"];
 var drink = testObj["the drink"];
 var sideMeal = testObj["my side"];
+
+
+var testob = {
+    12: "Namath",
+    16: "Montana",
+    19: "Unitas"
+};
+
+var playerNumber = 16;
+var player = testObj[playerNumber];
+console.log(testObj[playerNumber]);
+
+testob[12] = 'Namah';
+console.log(testob[12]);
+
+testObj.namme = "nonnnn";
+
+console.log(testObj.namme);
