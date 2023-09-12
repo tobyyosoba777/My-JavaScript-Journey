@@ -127,3 +127,12 @@ function miniDictionary(val) {
 }
 
 console.log(miniDictionary("dog"));
+
+function meaning(val) {
+    var item = {
+        "name": "tobi"
+    }
+    output = item[val];
+    return output;
+}
+console.log(meaning("name"))
