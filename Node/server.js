@@ -14,7 +14,7 @@
 var http = require('http');
 var server = http.createServer(function(request, response) {
     console.log("got a requet!");
-    response.write("hi, its me");
+    response.write("hi, its mee");
     response.end();
 });
 
