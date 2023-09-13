@@ -135,4 +135,73 @@ function meaning(val) {
     output = item[val];
     return output;
 }
-console.log(meaning("name"))
+console.log(meaning("name"));
+
+
+function dictionary(word) {
+    items = {
+        "battery": "component used to power devices",
+        "laptop": "portable computers used for computing computational tasks",
+        "html": "Hyper Text Markup Language used to define web structures",
+        "css": "Cacading Style Sheet used to define the presentation and to beautify webpages",
+        "JavaScript": "High level programming language used to define the behaviour of webpages"
+    }
+    output = items[word];
+    return output;
+}
+
+console.log(dictionary("JavaScript"));
+
+
+
+
+//Function to check if object has a specific property
+var myObj = {
+    "one": 1,
+    "two": 2,
+    "three": "the third letter"
+}
+
+
+function checkObj(checkProp) {
+    if (myObj.hasOwnProperty(checkProp)) {
+        return myObj[checkProp];
+        return checkProp + " exists"
+    }
+    else {
+        return "Not Found";
+    }
+}
+console.log(checkObj("one"));
+
+
+obj = {
+    "brother": "michael",
+    "sister": "demi",
+    "main_character": "tobi",
+    "mom": "juliana",
+    "dad": "babatunde"
+}
+
+function checkobj(prop) {
+    if (obj.hasOwnProperty(prop)) {
+        return obj[prop];
+    }
+    else {
+        return "Not Found";
+    }
+}
+console.log(checkobj("brother"));
+
+
+
+//another trial
+function checkob(prop) {
+    if(obj.hasOwnProperty(prop)) {
+        return obj[prop];
+    }
+    else {
+        return "Not Found";
+    }
+}
+console.log(checkob("mom"));
