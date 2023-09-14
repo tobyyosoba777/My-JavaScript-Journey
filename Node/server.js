@@ -13,9 +13,18 @@
 
 var http = require('http');
 var server = http.createServer(function(request, response) {
-    console.log("got a requet!");
+    console.log("got a request!");
     response.write("hi, its mee");
     response.end();
 });
 
 server.listen(3003);
+
+// var http = require("http")
+// var server = http.createServer(function(req, res) {
+//     console.log("got a request");
+//     res.write("hi its mei\n\t\n");
+//     res.end("hello world!\n");
+// });
+
+// server.listen(3003);
