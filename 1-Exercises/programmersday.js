@@ -7,7 +7,7 @@ function happyProgrammersDay() {
 }
 
 if (happyProgrammersDay()) {
-  console.log("Happy Programmer's Day!");
+  console.log("Happy Programmer's Dayy!");
 } else {
   console.log("Today is not Programmer's Day.");
 };
