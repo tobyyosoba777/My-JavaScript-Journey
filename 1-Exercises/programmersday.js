@@ -13,6 +13,18 @@ if (happyProgrammersDay()) {
 };
 
 
+function isToday15th() {
+  var today = new Date();
+  var month = today.getMonth() + 1;
+  return month === 9 && (today.getDate() === 14 || today.getDate() === 15);
+}
+
+if (isToday15th) {
+  console.log("Yes today is the 15th of september");
+}
+else {
+  console.log("Today aint the 15th lil nigga");
+}
 
 
 

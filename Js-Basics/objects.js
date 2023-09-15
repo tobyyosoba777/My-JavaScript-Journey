@@ -152,6 +152,18 @@ function dictionary(word) {
 
 console.log(dictionary("JavaScript"));
 
+function dictt(word) {
+    words = {
+        "a": "The 1st letter of the alphabet",
+        "b": "The 2nd letter of the alphabet",
+        "c": "The 3rd letter of the alphabet"
+    }
+    output = words[word];
+    return output;
+}
+console.log(dictt("c"));
+
+
 
 
 
@@ -165,8 +177,8 @@ var myObj = {
 
 function checkObj(checkProp) {
     if (myObj.hasOwnProperty(checkProp)) {
-        return myObj[checkProp];
-        return checkProp + " exists"
+        // return myObj[checkProp];
+        return checkProp + " existssssss"
     }
     else {
         return "Not Found";
@@ -174,6 +186,16 @@ function checkObj(checkProp) {
 }
 console.log(checkObj("one"));
 
+function checkp(prop) {
+    if(myObj.hasOwnProperty(prop)) {
+        return myObj[prop];
+        return prop + "has been foundddddd";
+    }
+    else {
+        return "property not found";
+    }
+}
+console.log(checkp("three"));
 
 obj = {
     "brother": "michael",
@@ -205,3 +227,115 @@ function checkob(prop) {
     }
 }
 console.log(checkob("mom"));
+
+
+
+
+//Manipulating Complex Objects
+var myMusic = [
+    {
+        "artist": "Billy Joel",
+        "title": "Piano Man",
+        "release_year": 1973,
+        "formats": [
+            "CD",
+            "8T",
+            "LP"
+        ],
+        "gold": true
+    },
+
+    {
+        "artist": "NF",
+        "title": "Hope",
+        "release_year": 2022,
+        "formats": [
+            "Youtube Video"
+        ]
+    }
+    
+]
+
+//Accessing Nested Objects
+var myStorage = {
+    "car": {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside": {
+            "trunk": "jack"
+        }
+    }
+};
+
+var gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents);
+
+
+//Another Example
+var data = {
+    "myHome": {
+        "inside": {
+            "chair": "green",
+            "dining": "not_found",
+            "kitchen": "average",
+            "rooms": 3
+        },
+
+        "outside": {
+            "bulb": 1,
+            "foot mat": 1
+        }
+    }
+};
+var kitchenInfo = data.myHome.inside.kitchen;
+console.log(kitchenInfo);
+
+
+var myPlants = [
+    {
+        type: "flowers",
+        list: [
+            "rose",
+            "tulip",
+            "dandelion"
+        ]
+    },
+    {
+        type: "trees",
+        list: [
+            "fir",
+            "pine",
+            "birch"
+        ]  
+    }
+];
+
+var tree = myPlants[1]
+console.log(JSON.stringify(tree));
+
+var secondTree = myPlants[1].list[1];  //To get the second tree in the second object list
+console.log(secondTree);
+
+var plants = [
+    {
+        type: "flowers",
+        list: [
+            "rose",
+            "tulip",
+            "dandelion"
+        ]
+    },
+    {
+        type: "trees",
+        list: [
+            "fir",
+            "pine",
+            "birch"
+        ]
+    }
+];
+
+var myFaveTree = plants[0].list[2];
+console.log(myFaveTree);

@@ -1,1 +1,3 @@
 in javascript objects you can access the object properties through the dot and bracket notation
+
+You can store objects in an array
