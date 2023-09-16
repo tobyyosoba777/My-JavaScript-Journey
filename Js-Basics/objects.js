@@ -364,3 +364,36 @@ faveTreee = plantsss[1].list[2];
 
 console.log(faveTreee);
 console.log("My fave part of nature are: " + faveType + "s");
+
+
+
+
+//Record Collection
+var collection = {
+    "2548": {
+        "album": "Slippery When Wet",
+        "artist": "Bon Jovi",
+        "tracks": [
+            "let it rock",
+            "You give Love a Bad Name"
+        ]
+    },
+    "2468": {
+        "album": "1999",
+        "artist": "Prince",
+        "tracks": [
+            "1999",
+            "Little Red Corvette"
+        ]
+    },
+    "1245": {
+        "artist": "Robert Palmer",
+        "tracks": [ ]
+    },
+    "5439": {
+        "album": "ABBA Gold"
+    }
+}
+
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+console.log(collectionCopy)
