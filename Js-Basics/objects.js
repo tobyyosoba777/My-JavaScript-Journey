@@ -343,6 +343,11 @@ console.log(myFaveTree);
 var plants = [
     {
         type: "flowers",
-        list:
-    }
+        list: [
+            "rose",
+            "tulip",
+            "dandelion"
+        ]
+    },
+    {}
 ]
