@@ -339,3 +339,10 @@ var plants = [
 
 var myFaveTree = plants[0].list[2];
 console.log(myFaveTree);
+
+var plants = [
+    {
+        type: "flowers",
+        list:
+    }
+]
