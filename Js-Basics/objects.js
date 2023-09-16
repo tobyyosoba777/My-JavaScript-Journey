@@ -340,7 +340,7 @@ var plants = [
 var myFaveTree = plants[0].list[2];
 console.log(myFaveTree);
 
-var plants = [
+var plantsss = [
     {
         type: "flowers",
         list: [
@@ -349,5 +349,18 @@ var plants = [
             "dandelion"
         ]
     },
-    {}
-]
+    {
+        type: "tree",
+        list: [
+            "fir",
+            "pine",
+            "birch"
+        ]
+    }
+];
+
+faveType = plantsss[1].type;
+faveTreee = plantsss[1].list[2];
+
+console.log(faveTreee);
+console.log("My fave part of nature are: " + faveType + "s");
