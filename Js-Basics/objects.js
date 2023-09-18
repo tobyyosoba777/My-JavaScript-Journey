@@ -379,7 +379,7 @@ var collection = {
         ]
     },
     "2468": {
-        "album": "1997",
+        "album": "1998",
         "artist": "Prince",
         "tracks": [
             "1999",
