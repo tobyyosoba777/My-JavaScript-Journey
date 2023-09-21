@@ -380,7 +380,7 @@ var collection = {
     },
     "2468": {
         "album": "1990",
-        "artist": "Prince",
+        "artist": "Princee",
         "tracks": [
             "1999",
             "Little Red Corvette"
