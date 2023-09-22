@@ -396,3 +396,29 @@ var collection = {
 }
 var collectionCopy = JSON.parse(JSON.stringify(collection));
 console.log(collectionCopy);
+
+var datarandom = {
+    "first": {
+        "name": "tobiloba",
+        "age": 19,
+        "level": 300,
+        "other names": [
+            "Gideon",
+            "Osoba"
+        ]
+    },
+
+    "second": {
+        "name": "Demilade",
+        "age": 21,
+        "level": 400,
+        "other names": [
+            "Benedicta",
+            "osoba"
+        ]
+    }
+}
+
+dataRandomCopy = JSON.parse(JSON.stringify(datarandom));
+console.log(dataRandomCopy)
+console.log(datarandom)
