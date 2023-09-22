@@ -420,5 +420,5 @@ var datarandom = {
 }
 
 dataRandomCopy = JSON.parse(JSON.stringify(datarandom));
-console.log(dataRandomCopy)
-console.log(datarandom)
+console.log(dataRandomCopy);
+console.log(datarandom);
