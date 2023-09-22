@@ -374,7 +374,7 @@ var collection = {
         "album": "Slippery When Wet",
         "artist": "Bon Jovi",
         "tracks": [
-            "let it rock",
+            "let it rockk",
             "You give Love a Bad Name"
         ]
     },
