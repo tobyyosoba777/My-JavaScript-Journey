@@ -416,6 +416,12 @@ var datarandom = {
             "Benedicta",
             "osoba"
         ]
+    },
+    "third": {
+        "name": "Michael",
+        "age": 13,
+        "class": "SSS1",
+        "other names": "Oluwatomisin"
     }
 }
 
