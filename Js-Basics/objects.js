@@ -402,7 +402,7 @@ var datarandom = {
         "name": "tobiloba",
         "age": 19,
         "level": 300,
-        "other names": [
+        "otherNames": [
             "Gideon",
             "Osoba"
         ]
