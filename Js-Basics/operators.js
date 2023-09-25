@@ -148,3 +148,15 @@ function golfScore(par, strokes) {
     }
 }
 console.log(golfScore(5, 8));
+
+/**
+ * @return {Function}
+ */
+var createHelloWorld = function() {
+    
+    return function(...args) {
+        return "Hello World"
+    }
+};
+
+console.log(createHelloWorld());
