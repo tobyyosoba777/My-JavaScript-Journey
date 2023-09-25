@@ -81,7 +81,7 @@ function testlogicalOr(val) {
         return("Value is within 10 and 20");
     }
     else {
-        return "Null";
+        return "Nulll";
     }
 }
 console.log(testlogicalOr(21));
