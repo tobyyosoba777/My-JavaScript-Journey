@@ -272,6 +272,9 @@ var myStorage = {
 var gloveBoxContents = myStorage.car.inside["glove box"];
 console.log(gloveBoxContents);
 
+var content = myStorage.car.outside.trunk;
+console.log(content);
+
 
 //Another Example
 var data = {
