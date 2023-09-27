@@ -11,4 +11,6 @@ log(parseInt(address));
 
 //Parse Float won't throw an error and ask you to need a float it will return the integer
 log(parseFloat(address)) 
-log(parseFloat(myStrFloat)) // will return the first decimal ending because u cant have multiple decimals within a number
+log(parseFloat(myStrFloat)); // will return the first decimal ending because u cant have multiple decimals within a number
+log(parseFloat(cost));
+log(parseInt(cost)); //Will return only the int
