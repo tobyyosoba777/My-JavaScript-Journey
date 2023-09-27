@@ -184,4 +184,24 @@ function isLess(a,b){
 console.log(isLess(0.6, Math.round(0.5)));
 
 
+var number = 3;
+var anotherNumber = 4;
+
+function add(n1, n2) {
+    return n1 + n2;
+}
+
+function multiply(n1, n2) {
+    return n1 * n2;
+}
+
+
+
+add(number, anotherNumber);
+multiply(number, anotherNumber);
+
+var soom = add(number, anotherNumber);
+var product = multiply(prompt("Enter a number: "), soom);
+console.log(product);
+
 //I have mastered this
