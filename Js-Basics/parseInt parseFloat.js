@@ -13,4 +13,4 @@ log(parseInt(address));
 log(parseFloat(address)) 
 log(parseFloat(myStrFloat)); // will return the first decimal ending because u cant have multiple decimals within a number
 log(parseFloat(cost));
-log(parseInt(cost)); //Will return only the int
+log(parseInt(cost)); //Will return only the int 19
