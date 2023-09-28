@@ -185,7 +185,7 @@ console.log(isLess(0.6, Math.round(0.5)));
 
 
 var number = 3;
-var anotherNumber = 4;
+var anotherNumber = 5;
 
 function add(n1, n2) {
     return n1 + n2;
