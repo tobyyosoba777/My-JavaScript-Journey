@@ -159,7 +159,7 @@ function switc(val) {
             answer = "yo";
             break;
             default:
-                answer = "There are only cases 1,2,3";
+                answer = "There are only cases 1,2 and 3";
     }
     return answer;
 }
