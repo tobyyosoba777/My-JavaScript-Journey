@@ -423,8 +423,8 @@ var datarandom = {
     "third": {
         "name": "Michael",
         "age": 13,
-        "class": "SSS2A",
-        "other names": "Oluwatomisin"
+        "class": "sss2A",
+        "other names": "Oluwatomisiin"
     }
 }
 
