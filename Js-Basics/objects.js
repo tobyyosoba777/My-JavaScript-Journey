@@ -494,6 +494,8 @@ function updateRecords(id, prop, value) {
     return collection;
 }
 
+
+
 //Alter values below to test your code
 updateRecords(5439, "artist", "ABBA")
 console.log(updateRecords(5439, "artist", "ABband"));

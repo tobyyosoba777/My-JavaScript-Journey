@@ -201,7 +201,7 @@ add(number, anotherNumber);
 multiply(number, anotherNumber);
 
 var soom = add(number, anotherNumber);
-var product = multiply(prompt("Enter a number: "), soom);
+var product = multiply(prompt("Enter a numberr: "), soom);
 console.log(product);
 
 //I have mastered this
