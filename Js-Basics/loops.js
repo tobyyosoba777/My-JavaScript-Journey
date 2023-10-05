@@ -43,3 +43,12 @@ for (let i=21; i >= 0; i--){
 
 var myName = `Tobi`
 console.log(myName);
+
+
+var myArray = [];
+var i = 0
+while (i<5) {
+    myArray.push(i);
+    i++;
+}
+console.log(myArray); 

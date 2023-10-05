@@ -148,3 +148,7 @@ console.log(JSON.stringify(myList));
 console.log(myList.unshift(["Apples", 4]));
 console.log(myList);
 console.log(JSON.stringify(myList)); //This will return the exact items contained in the array
+
+var craarr = ["apple", "banana", 3];
+craarr.shift();
+console.log(craarr);
