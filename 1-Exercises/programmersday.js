@@ -25,19 +25,3 @@ if (isToday15th) {
 else {
   console.log("Today aint the 15th lil nigga");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
