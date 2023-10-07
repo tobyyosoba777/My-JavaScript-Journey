@@ -526,5 +526,5 @@ function updateRecords(id, prop, value) {
 
 
 //Alter values below to test your code
-updateRecords(5439, "artist", "ABBA")
+// updateRecords(5439, "artist", "ABBA")
 console.log(updateRecords(5439, "artist", "ABband"));

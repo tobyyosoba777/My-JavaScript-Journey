@@ -52,3 +52,23 @@ while (i<6) {
     i++;
 }
 console.log(myArray); 
+
+
+
+var arr = []
+var i = 0;
+
+while(i<7) {
+    arr.push(i);
+    i++;
+}
+console.log(arr);
+
+var arry = [];
+var j = [];
+
+while(j<8) {
+    arry.push(j);
+    j++;
+}
+console.log(arry);
