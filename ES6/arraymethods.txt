@@ -1,0 +1,6 @@
+In summary, map is used for transforming elements in an array and 
+creating a new array with the transformed values, while filter is 
+used for selecting elements from an array based on a condition and 
+creating a new array containing only the selected elements. Both 
+methods are non-destructive, meaning they don't modify the 
+original array.

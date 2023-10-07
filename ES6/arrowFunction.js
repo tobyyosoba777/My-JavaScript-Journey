@@ -42,3 +42,30 @@ console.log(divider(10,2));
 
 var subtractNumber = (a,b) => {return a-b}
 console.log(subtractNumber(10,7));
+
+const arr = [1, 2, 3, 4]
+const squared = arr.map((number) => {
+    return number **2;
+})
+console.log(squared);
+
+
+// Using filter method and arrow function to return odd numbers from an array
+const arr2 = [1, 2, 3, 4];
+const filterodd = arr2.filter(odd => {
+    return odd % 2 !== 0;
+})
+console.log(filterodd);
+
+const arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const returnOdd = arr3.filter((odd) => {
+    return (odd % 2 != 0);
+})
+console.log(returnOdd)
+
+const arr4 = [1,2,3,4,5,6,7,8,9];
+const returnEven = arr4.filter((even) => {
+    return even % 2 === 0;
+})
+console.log(returnEven);
+
