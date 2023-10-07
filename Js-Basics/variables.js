@@ -180,3 +180,6 @@ function software(title, version, build) {
 console.log(software("Windows", 11, "Pro" ));
 
 
+//Template literals
+var newt = 32
+console.log(`the name is ${newt}`)
