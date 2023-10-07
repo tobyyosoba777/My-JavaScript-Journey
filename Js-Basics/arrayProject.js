@@ -12,45 +12,95 @@ const items = [
 const filteredItems = items.filter((item) => {
     return item.price <= 100;
 })
-
 console.log(filteredItems);
-
-
-const itemNames = items.map((item) => {
-    return item.name;
-})
-console.log(itemNames)
 
 const iname = items.filter((item) => {return item.price <= 100})
 
 
 
-
-
-
-
-
-
-
-
-const items1 = [
-    {name: 'Apples', price: 230},
-    {name: 'Bananas', price: 132},
-    {name: 'Pineapples', price: 500},
-    {name: 'Oranges', price: 550}
-]
-
-const filterItems = items1.filter((item) => {
-    return item.price >= 230;
+//The map method is used to return a specific property
+//In an array of objects
+const itemPrices = items.map((item) => {
+    return item.price;
 })
-console.log(filterItems)
+console.log(itemPrices)
 
-const itemFilter = items1.filter((item) => {
-    return item.price == 500;
+const itemNames = items.map((item) => {
+    return item.name;
 })
-console.log(itemFilter)
+console.log(itemNames);
 
-const filtertem = items.filter((item) => {
-    return item.price >= 200;
+map4 = items.map((item) => {
+    return item.name === 'Book';
 })
-console.log(filtertem)
+console.log(map4);
+
+
+
+
+//The Find() method helps you find a single object in an array
+foundItem = items.find((item) => {
+    return item.name === 'Book';
+})
+console.log(foundItem);
+
+foundItem1 = items.find((item) => {
+    return item.price === 200;
+})
+console.log(foundItem1)
+
+foundItem2 = items.find((item) => {
+    return item.name === 'Computer';
+})
+console.log(foundItem2);
+
+foundItem3 = items.find(item => {return item.name === 'Keyboard'})
+console.log(foundItem3);
+
+foundItem4 = items.find((item) => {
+    return item.name === 'Phone';
+})
+console.log(foundItem4);
+
+
+//forEach does not return anything so you dont need the return statement
+//It works like a for loop
+//You dont have to write a long for loop statement
+//for Each is also used to loop through an array
+items.forEach((item) => {
+    console.log(item.name);
+})
+
+arr30 = [1,2,4,5,6]
+
+arr30.forEach((item) => {
+    console.log(item);
+})
+
+
+
+
+
+
+
+// const items1 = [
+//     {name: 'Apples', price: 230},
+//     {name: 'Bananas', price: 132},
+//     {name: 'Pineapples', price: 500},
+//     {name: 'Oranges', price: 550}
+// ]
+
+// const filterItems = items1.filter((item) => {
+//     return item.price >= 230;
+// })
+// console.log(filterItems)
+
+// const itemFilter = items1.filter((item) => {
+//     return item.price == 500;
+// })
+// console.log(itemFilter)
+
+// const filtertem = items.filter((item) => {
+//     return item.price >= 200;
+// })
+// console.log(filtertem)
