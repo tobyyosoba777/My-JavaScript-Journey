@@ -143,7 +143,7 @@ console.log(practicearray);
 
 //Create an array with cmbj 3232
 
-var myList = [["Cereal", 3], ["Milk", 2], ["Banana", 3], ["Juice", 2]];
+var myList = [["Cereal", 3], ["Milk", 2], ["Banana", 3], ["Juice", 2]] ;
 console.log(JSON.stringify(myList));
 console.log(myList.unshift(["Apples", 4]));
 console.log(myList);
@@ -152,3 +152,6 @@ console.log(JSON.stringify(myList)); //This will return the exact items containe
 var craarr = ["apple", "banana", 3];
 craarr.shift();
 console.log(craarr);
+
+//The .slice is used to cut off elements from an array
+arrr  = ["a", "b", "c", "d"]
