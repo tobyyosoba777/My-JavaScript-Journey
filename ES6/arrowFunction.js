@@ -75,3 +75,12 @@ const returnOdds = arr5.filter((item) => {
 }) 
 console.log(returnOdds)
 
+const newone = () => {return "hello world"}
+console.log(newone())
+
+const arr999 = [1,2,3,4,5,6]
+
+const squaree = arr999.map((item) => {
+    return item ** 2;
+})
+console.log(squaree)

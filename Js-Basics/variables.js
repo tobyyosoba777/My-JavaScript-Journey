@@ -183,3 +183,6 @@ console.log(software("Windows", 11, "Pro" ));
 //Template literals
 var newt = 32
 console.log(`the name is ${newt}`)
+
+var figure = 19
+console.log(`The secret number is ${figure}`) 
