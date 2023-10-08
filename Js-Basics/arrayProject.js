@@ -103,6 +103,11 @@ const total = items.reduce((currentTotal, item) => {
 }, 0) 
 console.log(total)
 
+const items0 = [1, 2, 3, 4, 5]
+
+const includesTwo = items0.includes(2)
+
+console.log(includesTwo)
 
 
 // const items1 = [

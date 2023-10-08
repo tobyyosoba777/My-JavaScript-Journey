@@ -181,6 +181,28 @@ const drive = {
     }
 }
 
+const drivee = {
+    make: function() {
+        console.log("Intel")
+    },
+    driveType: function() {
+        console.log("SSD")
+    },
+    storageCapactity: function() {console.log("180gb")},
+    dimensions: 4,
+    drawDrive: function() {
+        for(i=0; i<this.dimensions; i++) {
+            console.log(i)
+        }
+    },
+    deleteDrive: function() {
+        for(i=this.dimensions; i<=0; i--){
+            console.log(i)
+        }
+    }
+}
+drive.driveType()
+
 
 drive.make();
 drive.driveType();
