@@ -18,6 +18,7 @@ const iname = items.filter((item) => {return item.price <= 100})
 
 
 
+
 //The map method is used to return a specific property
 //In an array of objects
 const itemPrices = items.map((item) => {
@@ -68,18 +69,39 @@ console.log(foundItem4);
 //You dont have to write a long for loop statement
 //for Each is also used to loop through an array
 items.forEach((item) => {
-    console.log(item.name);
+    console.log(item.price);
+})
+
+const itemname = items.forEach((item) => {
+    console.log(item.name)
 })
 
 arr30 = [1,2,4,5,6]
 
 arr30.forEach((item) => {
-    console.log(item);
+    console.log(item); 
 })
 
 
+//The .some is used to check if an item has a certain condition
+const inexpensiveItem = items.some((item) => {
+    return item.price <= 200;
+})
+console.log(inexpensiveItem);
 
+//Every is used to check whether every member of an array aligns with the condition
+const hasInexpensiveItem = items.every((item) => {
+    return item.price <= 1000 //True because all items are either up to or less than 1000
+})
+console.log(hasInexpensiveItem)
 
+//Reduce
+//To return the total prices of all the prices in the array
+const total = items.reduce((currentTotal, item) => {
+    return item.price + currentTotal
+    
+}, 0) 
+console.log(total)
 
 
 
