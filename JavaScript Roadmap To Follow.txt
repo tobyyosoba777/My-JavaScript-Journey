@@ -1,0 +1,101 @@
+1. Web Browser 0:43
+2. Html 0:55
+3. High Level 0:58
+4. ECMA 1:07
+5. WASM 1:11
+6. Runtime 1:16
+7. Scripting Language 1:23
+8. Browser Dev Tools 1:26
+9. Interpreted 1:34
+10. V8 Engine 1:42
+11. Just In Time Compilation 1:47
+12. Script Tag 2:00
+13. Src Attribute 2:04
+14. Console Log 2:06
+15. Let 2:17
+16. Dynamically Typed 2:25
+17. Primitive 2:30
+18. Mutable 2:06
+19. Undefined 2:41
+20. Null 2:46
+21. String 2:50
+22. Object 2:54
+23. Semicolons 3:00
+24. Const 3:13
+25. Var 3:21
+26. Lexical Environment 3:29
+27. Global Scope 3:35
+28. Function 3:50
+29. Local Scope 3:43
+30. Block Scope 3:46
+31. Hoisting 3:55
+32. Function Definition 4:00
+33. Arguments 4:06
+34. Return 4:10
+35. Function Expression 4:14
+36. Higher Order Function 4:19
+37. Closures 4:26
+38. Call Stack 4:31
+39. Heap 4:40
+40. this 4:51
+41. Window Or Global 5:02
+42. Bind 5:11
+43. Arrow Function 5:16
+44. Anonymous 5:22
+45. Passed By Value 5:30
+46. Passed By Reference 5:36
+47. Object Literal 5:46
+48. Object Constructor 5:52
+49. Property 5:56
+50. Prototype Chain 6:00
+51. Inheritance 6:11
+52. OOP 6:19
+53. Classes 6:22
+54. Constructor 6:25
+55. Get/Set 6:34
+56. Instance Method 6:39
+57. Static Method 6:42
+58. Array 6:46
+59. Set 6:53
+60. Map 6:56
+61. Garbage Collection 7:05
+62. Weakmap & Weakset 7:16
+63. Event Loop 7:26
+64. Sync 7:32
+65. Async 7:36
+66. Single Threaded 7:49
+67. SetTimeOut 7:56
+68. CallBack 8:04
+69. CallBack Hell 8:12
+70. Promise 8:18
+71. Resolve 8:24
+72. Reject 8:30
+73. Then/Catch 8:33
+74. Async 8:40
+75. Await 8:46
+76. Try/Catch 8:51
+77. ES Modules 9:00
+78. Default Import/Export 9:07
+79. Named Import/Export 9:19
+80. NPM 9:27
+81. Node Modules 9:32
+82. Package.JSON 9:36
+83. DOM 9:45
+84. Document 9:52
+85. QuerySelector 10:00
+86. CSS Selector 10:04
+87. Element 10:10
+88. QuerySelectorAll 10:16
+89. Event 10:25
+90. Imperative 10:34
+91. Declarative 10:42
+92. Components 10:48
+93. Data Binding 10:58
+94. Module Bundling 11:05
+95. Network Waterfall 11:19
+96. Dynamic Imports 11:28
+97. Node.JS 11:35
+98. Express 11:40
+99. Cross Platform 11:45
+100. TypeScript 11:54
+101. ESLint07 12:01
