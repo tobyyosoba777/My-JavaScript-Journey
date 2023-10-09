@@ -184,5 +184,5 @@ console.log(software("Windows", 11, "Pro" ));
 var newt = 32
 console.log(`the name is ${newt}`)
 
-var figure = 19
+var figure = 29
 console.log(`The secret number is ${figure}`) 
