@@ -1,4 +1,4 @@
-1. Web Browser 0:43
+1. Web Browser 
 2. Html 0:55
 3. High Level 0:58
 4. ECMA 1:07
