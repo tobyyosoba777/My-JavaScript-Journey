@@ -84,3 +84,34 @@ const squaree = arr999.map((item) => {
     return item ** 2;
 })
 console.log(squaree)
+
+
+//Array Exercise
+const items = [
+    {name: 'Bike',     price: 100  },
+    {name: 'TV',       price: 200  },
+    {name: 'Album',    price: 10   },
+    {name: 'Book',     price: 5    },
+    {name: 'Phone',    price: 500  },
+    {name: 'Computer', price: 1000 },
+    {name: 'Keyboard', price: 25   }
+]
+
+//1-use the filter method to filter out everything that is not up to a 100 dollar
+
+const filteredItems = items.filter((item) => {
+    return item.price <= 100;
+})
+console.log(filteredItems)
+
+//1-use the filter method to filter out everything that is not up to a 200 dollar
+const filterItems = items.filter((item) => {
+    return item.price <= 200;
+})
+console.log(JSON.stringify(filterItems))
+
+const filter = items.filter((item) => {
+    return item.name === 'Computer'
+})
+console.log(filter);
+
