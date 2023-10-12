@@ -454,7 +454,7 @@ var collection = {
         "tracks": [ ]
     },
     "5439": {
-        "album": "ABBA Gold"
+        "album": "ABBA Goldd"
     }
 };
 
