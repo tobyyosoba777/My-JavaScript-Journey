@@ -14,9 +14,10 @@ function testequal(val) {
 console.log(testequal(12));
 console.log(testequal(10));
 
-console.log(3===3) //Returns true because they are same value and same type
-console.log(3=="3") //Returns true because they are same value, this performed a type conversion and converted the string into a number
-console.log(3==="3") //returns false because they are same value but different types one is a number, second is a string
+console.log(3===3); //Returns true because they are same value and same type
+console.log(3=="3"); //Returns true because they are same value, this performed a type conversion and converted the string into a number
+console.log(3==="3"); //returns false because they are same value but different types one is a number, second is a string
+console.log(3 != 3);
 
 
 function compareEquality(a, b) {
