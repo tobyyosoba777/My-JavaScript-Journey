@@ -4,7 +4,7 @@
 //Available to JS via the global variable: window
 
 //We do not have to type window. It is implied.
-//The ideal way of using web API is with JSON to store data
+//The ideal way of using web APIs is with JSON to store data
 
 window.alert(window.location);
 alert(location);
@@ -26,3 +26,10 @@ console.log(mySessionData);
 sessionStorage.setItem("myStorage", JSON.stringify(myObject));
 const data = sessionStorage.getItem("myStorage");
 console.log(data);
+
+const newObj = {
+    name: "Tobiloba Gideon Osoba",
+    logName: function() {
+        console.log(this.name)
+    }
+}
