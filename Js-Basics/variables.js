@@ -182,7 +182,32 @@ console.log(software("Windows", 11, "Pro" ));
 
 //Template literals
 var newt = 32
-console.log(`the name is ${newt}`)
+console.log(`the name is ${newt}`);
 
 var figure = 77
-console.log(`The secret number is ${figure}`) 
+console.log(`The secret number is ${figure}`);
+
+var person = "Tobiloba";
+console.log(`My name is ${person}`);
+
+var newName = "Michael";
+console.log(`This is ${newName}`);
+
+
+
+
+
+const aNewVar = 1
+
+function main() {
+    const aNewVar = 2
+    console.log(`In Main: ${aNewVar}`);
+}
+main();
+console.log(`In Global: ${aNewVar}`);
+
+
+{
+    const aNewVar = 3;
+    console.log(`In Bracket: ${aNewVar}`);
+}

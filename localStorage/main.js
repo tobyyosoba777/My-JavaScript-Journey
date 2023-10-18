@@ -6,8 +6,8 @@
 //We do not have to type window. It is implied.
 //The ideal way of using web APIs is with JSON to store data
 
-window.alert(window.location);
-alert(location);
+// window.alert(window.location);
+// alert(location);
 
 const myObject = {
     name: "Tobi",
@@ -33,3 +33,11 @@ const newObj = {
         console.log(this.name)
     }
 }
+
+sessionStorage.setItem("New", JSON.stringify(newObj));
+sessionSaved = sessionStorage.getItem("New");
+console.log(sessionSaved);
+
+sessionStorage.setItem("new Item", JSON.stringify(newObj));
+sessionNew = sessionStorage.getItem("new Item");
+console.log(sessionNew);
