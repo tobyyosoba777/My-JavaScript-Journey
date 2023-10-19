@@ -6,7 +6,7 @@ let palindromme = function(word){
     if (flip === start) {
         return "It is a palindrome"
     } else {
-        return "not a palindrome"
+        return "Not a palindrome"
     }
 }
 console.log(palindromme("racecar"))
