@@ -211,3 +211,30 @@ console.log(`In Global: ${aNewVar}`);
     const aNewVar = 3;
     console.log(`In Bracket: ${aNewVar}`);
 }
+
+const personnn = {
+    name: 'Tobi',
+    age: 19
+}
+
+if(personnn.name != null) {
+    console.log("has name value");
+}
+
+if("name" in personnn) {
+    console.log("Has Name Value");
+}
+
+function queryAll(strings, ...values) {
+    const string = values.reduce((finalString, value, index) => {
+        return `${finalString} ${value} ${strings[index + 1]}`
+    }, strings[0])
+
+    return document.querySelectorAll(string);
+}
+
+const nameFirst = "Tobiloba Osoba";
+const language = "JavaScript";
+// console.log(bold`My name is ${nameFirst} and i code in ${language}`);
+console.log(queryAll`div`);
+
