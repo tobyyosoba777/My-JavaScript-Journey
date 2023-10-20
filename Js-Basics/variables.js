@@ -208,7 +208,7 @@ console.log(`In Global: ${aNewVar}`);
 
 
 {
-    const aNewVar = 3;
+    const aNewVar = 5;
     console.log(`In Bracket: ${aNewVar}`);
 }
 
