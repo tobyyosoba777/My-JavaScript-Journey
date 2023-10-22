@@ -14,3 +14,14 @@ console.log(queue);
 
 console.log(queue.shift());
 console.log(queue.shift());
+
+console.log(hello());
+// console.log(goodbye()); This won't execute
+
+function hello() {
+    return 'Hello World';
+}
+
+var goodbye = function() {
+    return 'Goodbye World';
+}
