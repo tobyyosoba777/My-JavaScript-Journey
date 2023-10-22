@@ -25,3 +25,13 @@ function hello() {
 var goodbye = function() {
     return 'Goodbye World';
 }
+
+const range =  Array.from({length: 5}, (_, index) => 
+index + 1);
+console.log(range);
+
+function greet() {
+    return 'Good Afternoon';
+}
+console.log(typeof greet);
+console.log(typeof greet());
