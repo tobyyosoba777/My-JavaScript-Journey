@@ -147,7 +147,7 @@ for (i=9; i>= 1; i -= 2) {
 console.log(oddBack);
 
 var arrayy = [1,2,3,4,5,6,7,8,9,10];
-for (i in arrayy) {
+for (i=0; i<arrayy.length; i++) {
     console.log(i)
 }
 
