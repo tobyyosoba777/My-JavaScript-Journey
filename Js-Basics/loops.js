@@ -164,3 +164,10 @@ for(i=0; i<add1.length; i++) {
 console.log(total);
 
 
+var add2 = [1,23,45,78, 9, 10, 11];
+total = 0;
+
+for(i=0; i<add2.length; i++) {
+    total += add2[i];
+}
+console.log(total);
