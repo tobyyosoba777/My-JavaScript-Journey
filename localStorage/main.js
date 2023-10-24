@@ -41,3 +41,7 @@ console.log(sessionSaved);
 sessionStorage.setItem("new Item", JSON.stringify(newObj));
 sessionNew = sessionStorage.getItem("new Item");
 console.log(sessionNew);
+
+
+
+

@@ -112,3 +112,5 @@ function palindromee() {
 //         resultElement.textContent = 'False - It is not a palindrome.';
 //     }
 // }
+
+
