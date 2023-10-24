@@ -171,3 +171,11 @@ for(i=0; i<add2.length; i++) {
     total += add2[i];
 }
 console.log(total);
+
+var add3 = [13,2,45,67,92, 10];
+var total = 0;
+
+for(i = 0; i<add3.length; i++) {
+    total += add3[i];
+}
+console.log(total);
