@@ -179,3 +179,12 @@ for(i = 0; i<add3.length; i++) {
     total += add3[i];
 }
 console.log(total);
+
+var add4 = [1,2,3,4,5,6,7,8,9,10, 12,1,3,4,566,];
+var total = 0;
+
+for(i = 0; i<add4.length; i++) {
+    total += add4[i];
+}
+console.log(total);
+
