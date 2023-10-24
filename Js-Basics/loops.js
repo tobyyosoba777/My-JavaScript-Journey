@@ -188,3 +188,10 @@ for(i = 0; i<add4.length; i++) {
 }
 console.log(total);
 
+var add5 = [12,3,455567,8,90, 190];
+var toal = 0;
+
+for(i = 0; i<add5.length; i++) {
+    total += add5[i];
+}
+console.log(total);
