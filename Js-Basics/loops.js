@@ -188,7 +188,7 @@ for(i = 0; i<add4.length; i++) {
 }
 console.log(total);
 
-var add5 = [12,3,455567,8,90, 190];
+var add5 = [12,3,455567,8,90, 190, 129];
 var toal = 0;
 
 for(i = 0; i<add5.length; i++) {
