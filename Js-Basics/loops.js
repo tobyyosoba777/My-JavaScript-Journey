@@ -172,7 +172,7 @@ for(i=0; i<add2.length; i++) {
 }
 console.log(total);
 
-var add3 = [13,2,45,67,92, 10];
+var add3 = [13,2,45,67,92, 10, 18];
 var total = 0;
 
 for(i = 0; i<add3.length; i++) {
