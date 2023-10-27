@@ -155,7 +155,7 @@ for (i=0; i<arrayy.length; i++) {
 }
 console.log(total);
 
-var add1 = [1,2,3,4,5,6,7,8,89,0];
+var add1 = [1,2,3,4,5,6,7,8,89,0,209];
 var total = 0;
 
 for(i=0; i<add1.length; i++) {
