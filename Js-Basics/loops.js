@@ -164,7 +164,7 @@ for(i=0; i<add1.length; i++) {
 console.log(total);
 
 
-var add2 = [1,23,45,78, 9, 10, 11];
+var add2 = [1,23,45,78, 9, 10, 11, 12];
 total = 0;
 
 for(i=0; i<add2.length; i++) {
