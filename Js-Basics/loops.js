@@ -180,7 +180,7 @@ for(i = 0; i<add3.length; i++) {
 }
 console.log(total);
 
-var add4 = [1,2,3,4,5,6,7,8,9,10, 12,1,3,4,566,];
+var add4 = [1,2,3,4,5,6,7,8,9,10, 12,1,3,4,566,600];
 var total = 0;
 
 for(i = 0; i<add4.length; i++) {
