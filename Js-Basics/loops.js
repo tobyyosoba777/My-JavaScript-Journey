@@ -240,4 +240,23 @@ addsArray = function() {
     return total;
 }
 console.log(addsArray())
+
+testing = function(innput) {
+    for(i = 6; i<=50; i+=2) {
+        innput.push(i);
+    }
+    return innput;
+}
+console.log(testing([2,4]))
+
+
+const newArray = [1,2,3,4,5,6,76,8,9];
+function addingg() {
+    let total = 0;
+    for(i=0; i<=newArr.length; i++) {
+        total += i;
+    }
+    return total;
+}
+console.log(typeof newArray)
 //Nested Loops 
