@@ -5,6 +5,10 @@ for (let i=0; i<5; i++) [
     console.log('Hello World' + i)
 ]
 
+for (let i = 0; i<= 5; i++) {
+    console.log("Hello Wolrd " + i);
+}
+
 var myVar = 20;
 myVar++;
 console.log(myVar++);
@@ -196,4 +200,44 @@ for(i = 0; i<add5.length; i++) {
 }
 console.log(total);
 
+
+var arrin = [];
+for(i=0; i<20; i++) {
+    arrin.push(i);
+}
+console.log(arrin);
+
+var empty = [];
+for (i=0; i<= 15; i++) {
+    empty.push(i);
+}
+
+const ann = [0, 20];
+function inn(annn) {
+    for (i= 0; i<= 20; i++) {
+        annn.push(i);
+    }
+    return annn
+}
+console.log(inn([1,2,3]))
+
+
+function newa(anni) {
+    for(i = 5; i<=20; i+=2) {
+        anni.push(i);
+    }
+    return anni;
+}
+console.log(newa([1,3]));
+
+
+const anna = [1,2,3,4,5,6,7,8,9,10];
+addsArray = function() {
+    let total = 0;
+    for (i=0; i<=anna.length; i++) {
+        total += i;
+    }
+    return total;
+}
+console.log(addsArray())
 //Nested Loops 
