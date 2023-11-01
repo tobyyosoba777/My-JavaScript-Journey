@@ -6,7 +6,7 @@ let x = {};
 //Constructors 
 new String(); //For creating strings '' "" `` String literals, using the string literals is better and cleaner
 new Boolean(); // True False
-new Number(); //1, 2, 3, 4, 5, ...
+new Number(); //1, 2, 3, 4, 5, 6 ...
 
 
 
