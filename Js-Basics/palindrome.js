@@ -52,4 +52,4 @@ let palindromes = function(word) {
     return (start === flip);
 }
 
-console.log(palindromes('reviver'));
+console.log(palindromes('redder'));
