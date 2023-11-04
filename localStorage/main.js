@@ -42,6 +42,22 @@ sessionStorage.setItem("new Item", JSON.stringify(newObj));
 sessionNew = sessionStorage.getItem("new Item");
 console.log(sessionNew);
 
+const newObjects = {
+    name: "Tobiosoba",
+    email: {
+        first: "Tobiosoba777@gmail.com",
+        second: "Tobiosoba761@gmail.com"
+    },
+    emailList: function() {
+        console.log(this.email)
+    },
+    displayName: function() {
+        console.log(this.name)
+    }
+}
 
+sessionStorage.setItem("new_one", JSON.stringify(newObjects));
+sessionSavee = sessionStorage.getItem("new_one");
+console.log(sessionSavee);
 
 
