@@ -78,9 +78,11 @@ localStorage.setItem("myLocalStore", JSON.stringify(objNew));
 // localStorage.removeItem("myLocalStore")
 // localStorage.clear();
 localData = JSON.parse(localStorage.getItem("myLocalStore"));
+key = localStorage.key(0);
+length = localStorage.length;
+
 
 console.log(localData);
-
-const key = localStorage.key(0);
+console.log(length);
 console.log(key)
 
