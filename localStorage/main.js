@@ -9,6 +9,8 @@
 // window.alert(window.location);
 // alert(location);
 
+//session storage and local storage only stores string data in the browser api storage
+
 const myObject = {
     name: "Tobi",
     logName: function() {
@@ -38,9 +40,6 @@ sessionStorage.setItem("New", JSON.stringify(newObj));
 sessionSaved = sessionStorage.getItem("New");
 console.log(sessionSaved);
 
-sessionStorage.setItem("new Item", JSON.stringify(newObj));
-sessionNew = sessionStorage.getItem("new Item");
-console.log(sessionNew);
 
 const newObjects = {
     name: "Tobiosoba",
@@ -60,4 +59,25 @@ sessionStorage.setItem("new_one", JSON.stringify(newObjects));
 sessionSavee = sessionStorage.getItem("new_one");
 console.log(sessionSavee);
 
+
+
+const myArray = ["eat", "sleep", "code"];
+const objNew = {
+    name: "Tobi",
+    hobbies: ["eat", "code", "sleep"],
+    logName: function() {
+        console.log(this.name);
+    }
+};
+
+sessionStorage.setItem("mysessionstore", JSON.stringify(myArray));
+sessdata = JSON.parse(sessionStorage.getItem("mysessionstore"));
+console.log(sessdata);
+
+localStorage.setItem("myLocalStore", JSON.stringify(objNew));
+localStorage.removeItem("myLocalStore")
+localStorage.clear();
+localData = JSON.parse(localStorage.getItem("myLocalStore"));
+
+console.log(localData);
 
