@@ -75,9 +75,12 @@ sessdata = JSON.parse(sessionStorage.getItem("mysessionstore"));
 console.log(sessdata);
 
 localStorage.setItem("myLocalStore", JSON.stringify(objNew));
-localStorage.removeItem("myLocalStore")
-localStorage.clear();
+// localStorage.removeItem("myLocalStore")
+// localStorage.clear();
 localData = JSON.parse(localStorage.getItem("myLocalStore"));
 
 console.log(localData);
+
+const key = localStorage.key(0);
+console.log(key)
 
