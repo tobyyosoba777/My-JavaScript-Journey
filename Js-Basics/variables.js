@@ -197,7 +197,7 @@ console.log(`This is ${newName}`);
 
 
 
-const aNewVar = 10;
+const aNewVar = 100;
 
 function main() {
     const aNewVar = 2
