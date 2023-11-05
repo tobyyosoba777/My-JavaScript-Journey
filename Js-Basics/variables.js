@@ -187,7 +187,7 @@ console.log(`the name is ${newt}`);
 var figure = 77
 console.log(`The secret number is ${figure}`);
 
-var person = "Tobiloba";
+var person = "Tobiloba Osoba";
 console.log(`My name is ${person}`);
 
 var newName = "Michael";
