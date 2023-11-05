@@ -45,7 +45,8 @@ const newObjects = {
     name: "Tobiosoba",
     email: {
         first: "Tobiosoba777@gmail.com",
-        second: "Tobiosoba761@gmail.com"
+        second: "Tobiosoba761@gmail.com",
+        third: "towbbieblogs@gmail.com"
     },
     emailList: function() {
         console.log(this.email)
