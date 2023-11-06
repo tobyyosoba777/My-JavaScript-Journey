@@ -124,7 +124,7 @@ function prevLaptop(make, year, model, ram, processor, displayDriver) {
 
     return output;
 }
-console.log(prevLaptop("HP", 2012, "Elitebook 8460p", "8gb", `Intel Core i5 2520m`, `AMD Radeon 6470m` ));
+console.log(prevLaptop("HP", 2012, "Elitebook 8470p", "8gb", `Intel Core i5 3210m`, `AMD Radeon 6470m` ));
 
 
 
