@@ -53,3 +53,12 @@ let palindromes = function(word) {
 }
 
 console.log(palindromes('redder'));
+
+let newPalindrome = function(word) {
+    let len = word.length;
+    let start = word.substring(0, Math.floor(len / 2)).toLowerCase();
+    let end = word.substring(len - Math.floor(len / 2)).toLowerCase();
+    let flip = end.split('').reverse().join('');
+    return(start === flip) 
+}
+console.log("check " + newPalindrome("tobot"));
