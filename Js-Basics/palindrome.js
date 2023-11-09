@@ -52,7 +52,7 @@ let palindromes = function(word) {
     return (start === flip);
 }
 
-console.log(palindromes('raddar'));
+console.log(palindromes('radddar'));
 
 let newPalindrome = function(word) {
     let len = word.length;
