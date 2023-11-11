@@ -10,7 +10,7 @@ const interestRate = 1;
 console.log(interestRate);
 
 let name = 'Tobi'; //String Literal
-let age = 19; //Number Literal
+let age = 190; //Number Literal
 let isApproved = true; //Boolean value 
 let middleName = undefined; //undefined
 let selectedColor = null;
