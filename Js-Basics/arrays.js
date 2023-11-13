@@ -154,4 +154,6 @@ craarr.shift();
 console.log(craarr);
 
 //The .slice is used to cut off elements from an array
-arrr  = ["a", "b", "c", "d"]
+arrr  = ["a", "b", "c", "d", "e"];
+let sliced = arrr.slice(0,-2)
+console.log(sliced)
