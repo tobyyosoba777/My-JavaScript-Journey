@@ -136,7 +136,7 @@ oneone = arrayNew.unshift("Osoba");
 console.log(arrayNew);
 
 //Remove stimpson and add array as the first item on the array
-var practicearray = ["Stimpson", "J", "Cat"]
+var practicearray = ["Stimpson", "J", "Cat", "Dog"]
 practicearray.shift();
 practicearray.unshift("happy")
 console.log(practicearray);
