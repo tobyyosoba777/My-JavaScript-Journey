@@ -12,7 +12,7 @@ console.log(newString);
 
 var ourStr = "I come first";
 ourStr += " I come second";
-ourStr += '\t' + 4;
+ourStr += '\t' + 14;
 console.log(ourStr);
 
 var myName = "Tobiloba";
