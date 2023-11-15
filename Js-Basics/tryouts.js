@@ -1,5 +1,5 @@
 (function () {
-    var a = b = 5;
+    var a = b = 10;
 })();
 
 // console.log(a);
