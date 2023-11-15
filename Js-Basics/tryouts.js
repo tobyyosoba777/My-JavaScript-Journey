@@ -34,4 +34,4 @@ function greet() {
     return 'Good Afternoon';
 }
 console.log(typeof greet);
-console.log(typeof greet());
+console.log(typeof greet()); 
