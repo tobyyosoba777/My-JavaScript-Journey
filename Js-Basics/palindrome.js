@@ -61,7 +61,7 @@ let newPalindrome = function(word) {
     let flip = end.split('').reverse().join('');
     return(start === flip) 
 }
-console.log("check " + newPalindrome("tobot"));
+console.log("check " + newPalindrome("ttobott"));
 
 let palindromeProgram = function(word) {
     let len = word.length;
