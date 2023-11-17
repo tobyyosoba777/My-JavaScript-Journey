@@ -70,4 +70,4 @@ let palindromeProgram = function(word) {
     let flip = end.split('').reverse().join('');
     return (start === flip)
 }
-console.log("this is the latest :" + palindromeProgram("michcim"));
+console.log("this is the latest :" + palindromeProgram("michhcim"));
