@@ -71,3 +71,13 @@ let palindromeProgram = function(word) {
     return (start === flip)
 }
 console.log("this is the latest :" + palindromeProgram("michhcim"));
+
+let pal = function(word){
+    let len = word.length;
+    let start = word.substring(0, Math.floor(len / 2)).toLowerCase();
+    let end = word.substring(len - Math.floor(len / 2)).toLowerCase();
+    let flip = end.split('').reverse().join('')
+    return start === flip;
+}
+
+console.log(pal("kayak"))
