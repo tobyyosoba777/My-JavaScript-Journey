@@ -42,7 +42,7 @@ function palindromeee() {
     
     let resultElement = document.getElementById('result');
     if (check(word)) {
-        resultElement.textContent = "String is a plaindrome";
+        resultElement.textContent = "String is a palindrome";
     }
     else {
         resultElement.textContent = "String is not a palindrome"
