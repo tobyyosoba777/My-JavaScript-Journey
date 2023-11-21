@@ -157,3 +157,4 @@ console.log(craarr);
 arrr  = ["a", "b", "c", "d", "e"];
 let sliced = arrr.slice(0,-2)
 console.log(sliced)
+

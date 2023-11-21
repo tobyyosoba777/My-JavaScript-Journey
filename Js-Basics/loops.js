@@ -259,4 +259,6 @@ function addingg() {
     return total;
 }
 console.log(typeof newArray)
-//Nested Loops 
+
+//Nested for Loops 
+
