@@ -301,4 +301,17 @@ function multiplication(arr) {
 }
 
 product = multiplication([[1,2], [3,4], [5,6,7]]);
-console.log("Product is: " + product);
+console.log("Product: " + product);
+
+function multiplyy(arr) {
+    product = 1;
+
+    for(var i = 0; i<arr.length; i++) {
+        for(j = 0; j < arr[i].length; j++) {
+            product *= arr[i][j];
+        }
+    }
+    return product;
+}
+product = multiplyy([[1,2], [3,4], [5,6]]);
+console.log(product);
