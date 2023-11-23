@@ -315,3 +315,17 @@ function multiplyy(arr) {
 }
 product = multiplyy([[1,2], [3,4], [5,6]]);
 console.log(product);
+
+
+function multi(arr) {
+    product = 1;
+
+    for(var i = 0; i<arr.length; i++) {
+        for(j = 0; j<arr[i].length; j++) {
+            product *= arr[i][j];
+        }
+    }
+    return product;
+}
+product = multi([[1,2,3], [4,5,6], [7,8,9]])
+console.log(product);
