@@ -348,10 +348,19 @@ console.log(product);
 
 //Iterate with Do While Loops
 const siarray = [];
-var i = 10;
+var i = 1;
 while (i < 5) {
     siarray.push(i);
     i++;
 }
 
 console.log(i, siarray);
+
+const a01 = [];
+var i = 0;
+
+while (i<9) {
+    a01.push(i);
+    i++;
+}
+console.log(i, a01);
