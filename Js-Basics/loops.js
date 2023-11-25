@@ -343,3 +343,15 @@ function mal(arr) {
 }
 product = mal([[1,2,3] ,[4,5], [10, 10]]);
 console.log(product);
+
+
+
+//Iterate with Do While Loops
+const siarray = [];
+var i = 10;
+while (i < 5) {
+    siarray.push(i);
+    i++;
+}
+
+console.log(i, siarray);
