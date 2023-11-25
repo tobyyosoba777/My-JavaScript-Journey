@@ -327,5 +327,5 @@ function multi(arr) {
     }
     return product;
 }
-product = multi([[1,2,3], [4,5,6], [7,8,9,10,10]])
+product = multi([[1,2,3], [4,5,6], [7,8,9,10,12]])
 console.log(product);
