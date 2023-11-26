@@ -590,17 +590,43 @@ function lookUpProfilee(name, prop) {
     }
     return name + " Not Found In Contacts";
 }
-var newData = lookUpProfilee("tobi", "firstname");
+var newData = lookUpProfilee("tobi", "firstName");
 console.log(newData);
 
 //ANOTHER
 function lookup(name, prop) {
     for(var i = 0; i<contacts.length; i++) {
-        if(contacts[i].firstName === name) {
+        if(contacts[i].firstName === name || contacts[i].lastName === name) {
             return contacts[i][prop] || "property does not exist";
         }
     }
     return name, " Does not exist";
 }
-var dataNew = lookup("Harry", "likes");
+var dataNew = lookup("Holmes", "firstName");
 console.log(dataNew);
+
+contactsNew = [
+    {
+        "firstName": "Tobiloba",
+        "lastName": "Osoba",
+        "Course": "Computer Science",
+        "netWorth": "50 Million USD"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Osoba",
+        "Course": "Computer Science",
+        "netWorth": "10 million USD"
+    }
+]
+
+function lookupp(name, prop) {
+    for(var i = 0; i<contactsNew.length; i++) {
+        if(contactsNew[i].firstName === name || contactsNew[i].lastName === name) {
+            return contactsNew[i][prop] || "Property " + prop + " Not Found";
+        }
+    }
+    return "Name is non-existent";
+}
+var find = lookupp("Tobiloba", "netWorth");
+console.log(find)
