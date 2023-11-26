@@ -364,3 +364,12 @@ while (i<9) {
     i++;
 }
 console.log(i, a01);
+
+var a02 = []
+var i = 0;
+
+while(i<10) {
+    a02.push(i);
+    i++;
+}
+console.log(i, a02);
