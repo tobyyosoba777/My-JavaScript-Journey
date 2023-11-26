@@ -592,3 +592,15 @@ function lookUpProfilee(name, prop) {
 }
 var newData = lookUpProfilee("tobi", "firstname");
 console.log(newData);
+
+//ANOTHER
+function lookup(name, prop) {
+    for(var i = 0; i<contacts.length; i++) {
+        if(contacts[i].firstName === name) {
+            return contacts[i][prop] || "property does not exist";
+        }
+    }
+    return name, " Does not exist";
+}
+var dataNew = lookup("Harry", "likes");
+console.log(dataNew);
