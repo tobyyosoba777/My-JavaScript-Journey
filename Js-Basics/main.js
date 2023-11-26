@@ -13,8 +13,9 @@ function randomWholeNumber() {
 }
 console.log(randomWholeNumber());
 
+//Math.floor is used to round up numbers
 function randNum() {
 
-    return Math.floor(Math.random() * 1060);
+    return Math.floor(Math.random() * 1000);
 }
 console.log(randNum());
