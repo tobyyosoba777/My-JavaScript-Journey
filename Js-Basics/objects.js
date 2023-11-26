@@ -629,4 +629,4 @@ function lookupp(name, prop) {
     return "Name is non-existent";
 }
 var find = lookupp("Tobiloba", "netWorth");
-console.log(find)
+console.log(find);
