@@ -372,4 +372,4 @@ while(i<10) {
     a02.push(i);
     i++;
 }
-console.log(i, a02);
+console.log(i, a02);p-=[z]

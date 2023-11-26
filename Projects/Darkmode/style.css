@@ -5,6 +5,7 @@
 }
 
 body {
+    transition: .3s ease-out;
     background-color: #f5f5f5;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
@@ -20,6 +21,17 @@ body {
     border-top: 3px solid #003cff;  
 }
 
+#darkmode {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* .ri-sun-fill, .ri-moon-fill {
+    font-size: 20px;
+}  */
+
 body.dark {
+    transition: .3s ease-out;
     background-color: #111111;
+    color: #fff;
 }
