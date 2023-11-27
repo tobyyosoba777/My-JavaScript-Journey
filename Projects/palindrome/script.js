@@ -11,6 +11,19 @@ let palindromme = function(word){
 }
 console.log(palindromme("racecar"))
 
+const myPalindrome = function(word) {
+    var len = word.length;
+    var start = word.substring(0, Math.floor(len / 2));
+    var end = word.substring(len - Math.floor(len / 2));
+    var flip = end.split('').reverse().join('');
+    if (flip === start) {
+        return "It is a Palindrome";
+    }
+    else {
+        return "It is not a palindrome";
+    }
+}
+console.log(myPalindrome("Racecar"))
 
 function palindrome() {
     const word = document.getElementById('word').value.toLowerCase();
