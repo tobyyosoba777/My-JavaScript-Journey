@@ -220,3 +220,16 @@ console.log("Todays date is " + magicc())
 
 const magicals = () => {return new Date()}
 console.log("Date Now ", magicals())
+
+//Concatenate two arrays using arrow function
+
+var concat = function(arr1, arr2) {
+    return arr1.concat(arr2);
+}
+console.log(concat([1,2,4], [4,5]));
+
+const myConcat = (arr1, arr2) => arr1.concat(arr2);
+console.log(myConcat([3,4,5], [6,7]));
+
+const newConcat = (arr1, arr2) => arr1.concat(arr2);
+console.log(newConcat([1,2,34,46], [99,100, 19]))
