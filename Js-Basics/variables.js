@@ -255,10 +255,21 @@ function printManyTimes(str) {
     "Use Strict";
 
     const sentence = str + " is an amazing developer";
-    sentence = str + " is a cool developer";
 
-    for(var i = 0; i< str.length; i+=2) {
+    for(let i = 0; i< str.length; i+=2) {
         console.log(sentence);
     }
 }
-console.log(printManyTimes("Tobiloba"));
+console.log(printManyTimes("Tobiloba Osoba"));
+
+//Mutate array declared with const
+const s = [5,7,2];
+function editInPlace() {
+
+    //s = [2,5,7]
+    s[0] = 2;
+    s[1] = 5;
+    s[2] = 7;
+}
+editInPlace()
+console.log(s);
