@@ -41,4 +41,10 @@ beginning of an array..
 
 JSON.stringify() is a method used to change/convert an array to a readable string 
 
+//Differences between the var and let keywords
+for a long time in JavaScript we define variable using the var keyword 
+but in ES6 let and const was introduced in 2015 and we can now use it
+let does not allow you to declare a variable twice
+its good to always use let when developing complex programs to avoid errors of declaring a variable twice
+
 

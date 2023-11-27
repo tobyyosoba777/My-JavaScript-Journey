@@ -80,3 +80,5 @@ function check2(num) {
     return num > 0? "Positive" : num < 0? "Negative" : "Zero";
 }
 console.log(check2(-10));
+
+//Differences between the var and let keyword

@@ -230,7 +230,7 @@ function queryAll(strings, ...values) {
         return `${finalString} ${value} ${strings[index + 1]}`
     }, strings[0])
 
-    return document.querySelectorAll(string);
+    // return document.querySelectorAll(string);
 }
 
 const nameFirst = "Tobiloba Osoba";
@@ -238,3 +238,15 @@ const language = "JavaScript";
 // console.log(bold`My name is ${nameFirst} and i code in ${language}`);
 console.log(queryAll`div`);
 
+//Var and let keyword scope 
+function checkScope() {
+    "use strict";
+    let i = "Function Scope";
+    if (true) {
+        let i = "Block Scope"
+        console.log("Block scope i is " + i)
+    }
+    console.log("function scope i is: " + i)
+    return i
+}
+checkScope();
