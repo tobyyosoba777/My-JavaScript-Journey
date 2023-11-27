@@ -250,3 +250,15 @@ function checkScope() {
     return i
 }
 checkScope();
+
+function printManyTimes(str) {
+    "Use Strict";
+
+    const sentence = str + " is an amazing developer";
+    sentence = str + " is a cool developer";
+
+    for(var i = 0; i< str.length; i+=2) {
+        console.log(sentence);
+    }
+}
+console.log(printManyTimes("Tobiloba"));
