@@ -149,6 +149,4 @@ const sFunction = (arr) => {
 const sList = sFunction(realNumberArray)
 console.log(sList)
 
-const nnn = (arr) => {return arr*2}
-console.log(nnn(2))
 
