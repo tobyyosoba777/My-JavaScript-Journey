@@ -630,3 +630,27 @@ function lookupp(name, prop) {
 }
 var find = lookupp("Tobiloba", "netWorth");
 console.log(find);
+
+cars = [
+    {
+        "brandName" : "Lamborghini".toLowerCase(),
+        "model" : "Aventador",
+        "colors": ["red", "yellow", "white", "green", "skyBlue"]
+    },
+    {
+        "brandName" : "Rolls Royce",
+        "model" : "Boat Tail",
+        "colors": ["white", "shyBlue"]
+    }
+]
+
+function looking(name, prop) {
+    for(var i = 0; i < cars.length; i++) {
+        if(cars[i].brandName === name || cars[i].model === name) {
+            return cars[i][prop] || prop + " Not Found";
+        }
+    }
+    return name + " not found"
+}
+findCar = looking("lamborghini", "colors");
+console.log(findCar);
