@@ -43,3 +43,23 @@ const foundItems = items.find((item) => {
     return item.name === 'Book';
 })
 console.log(foundItems);
+
+const pricesFound = items.map((item) => {
+    return item.price;
+})
+console.log(pricesFound);
+
+const foundNamesNew = items.map((item) => {
+    return item.name;
+})
+console.log(foundNamesNew);
+
+const findd = items.find((item) => {
+    return item.name === 'Keyboard';
+})
+console.log(findd);
+
+const filtred = items.filter((item) => {
+    return item.price > 200;
+})
+console.log(JSON.stringify(filtred));
