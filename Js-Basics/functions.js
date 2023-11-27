@@ -233,3 +233,6 @@ console.log(myConcat([3,4,5], [6,7]));
 
 const newConcat = (arr1, arr2) => arr1.concat(arr2);
 console.log(newConcat([1,2,34,46], [99,100, 19]))
+
+const testConcat = (arr1, arr2) => arr1.concat(arr2);
+console.log(testConcat([2,4,6], [8,10,12]));
