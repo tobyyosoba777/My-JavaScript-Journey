@@ -28,7 +28,18 @@ const foundNames = items.map((item) => {
 })
 console.log(foundNames);
 
-const prices = items.filter((item) => {
+const pricesGreaterThan100 = items.filter((item) => {
     return item.price > 100;
 })
-console.log(JSON.stringify(prices))
+console.log(JSON.stringify(pricesGreaterThan100))
+
+const prices = items.map((item) => {
+    return item.price;
+})
+console.log(prices);
+
+//use the find method to return the object with the name of book in the array
+const foundItems = items.find((item) => {
+    return item.name === 'Book';
+})
+console.log(foundItems);
