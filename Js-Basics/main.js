@@ -70,3 +70,13 @@ function checkSign(num) {
     return num > 0 ? "positive" : num < 0 ? "negative" : "zero"; 
 }
 console.log(checkSign(0));
+
+function checkAgain(num) {
+    return num > 0? "Positive" : num < 0? "Negative" : "Zero";
+}
+console.log(checkAgain(20));
+
+function check2(num) {
+    return num > 0? "Positive" : num < 0? "Negative" : "Zero";
+}
+console.log(check2(-10));
