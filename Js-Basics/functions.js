@@ -201,7 +201,22 @@ add(number, anotherNumber);
 multiply(number, anotherNumber);
 
 var soom = add(number, anotherNumber);
-var product = multiply(prompt("Enter a numberr: "), soom);
-console.log(product);
+// var product = multiply(prompt("Enter a numberr: "), soom);
+// console.log(product);
 
 //I have mastered this
+
+
+var magic = () => {
+    return new Date();
+};
+console.log(magic())
+
+function magicc() {
+    return new Date();
+}
+console.log("Todays date is " + magicc())
+
+
+const magicals = () => {return new Date()}
+console.log("Date Now ", magicals())
