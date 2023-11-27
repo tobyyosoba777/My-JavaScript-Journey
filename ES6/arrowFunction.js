@@ -118,3 +118,37 @@ console.log(filter);
 //Using the arrow function and const keyword (es6 features) to concatenate a string
 const concatenateFunction = (arr1, arr2) => arr1.concat(arr2);
 console.log(concatenateFunction([1,5,10], [15, 20])); 
+
+//Find the square of the array
+const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6]
+const findSquare = realNumberArray.map((i) => {
+    return i**2
+})
+console.log(findSquare)
+
+
+const squareList = (arr) => {
+    const squaredIntegers = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x )
+    return squaredIntegers;
+}
+const squaredIntegers = squareList(realNumberArray)
+console.log(squaredIntegers);
+
+
+
+var arrayney = [1,2,3,4]
+const multiplyTest = arrayney.map((num) => {
+    return num**2
+})
+console.log(multiplyTest)
+
+const sFunction = (arr) => {
+    const sList = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x)
+    return sList
+}
+const sList = sFunction(realNumberArray)
+console.log(sList)
+
+const nnn = (arr) => {return arr*2}
+console.log(nnn(2))
+
