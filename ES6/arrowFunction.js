@@ -115,3 +115,6 @@ const filter = items.filter((item) => {
 })
 console.log(filter);
 
+//Using the arrow function and const keyword (es6 features) to concatenate a string
+const concatenateFunction = (arr1, arr2) => arr1.concat(arr2);
+console.log(concatenateFunction([1,5,10], [15, 20])); 
