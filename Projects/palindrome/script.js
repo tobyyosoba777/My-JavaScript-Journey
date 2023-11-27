@@ -11,7 +11,9 @@ let palindromme = function(word){
 }
 console.log(palindromme("racecar"))
 
-const myPalindrome = function(word) {
+var myPalindrome = function(word) {
+    word = word.toLowerCase();
+
     var len = word.length;
     var start = word.substring(0, Math.floor(len / 2));
     var end = word.substring(len - Math.floor(len / 2));
