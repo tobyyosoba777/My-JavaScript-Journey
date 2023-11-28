@@ -73,3 +73,8 @@ const newii = items.filter((item) => {
     return item.price > 200;
 })
 console.log(JSON.stringify(newii));
+
+const newio = items.filter((item) => {
+    return item.price > 200;
+})
+console.log(JSON.stringify(newio));
