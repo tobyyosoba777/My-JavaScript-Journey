@@ -82,3 +82,7 @@ console.log(JSON.stringify(newio));
 items.forEach((item) => {
     console.log(item.name)
 })
+
+items.forEach((item) => {
+    console.log(item.price);
+})
