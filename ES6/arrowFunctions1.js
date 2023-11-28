@@ -78,3 +78,7 @@ const newio = items.filter((item) => {
     return item.price > 200;
 })
 console.log(JSON.stringify(newio));
+
+items.forEach((item) => {
+    console.log(item.name)
+})
