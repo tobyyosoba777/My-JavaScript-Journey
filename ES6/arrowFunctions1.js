@@ -68,3 +68,8 @@ const tred = items.filter((item) => {
     return item.price > 200;
 })
 console.log(JSON.stringify(tred))
+
+const newii = items.filter((item) => {
+    return item.price > 200;
+})
+console.log(JSON.stringify(newii));
