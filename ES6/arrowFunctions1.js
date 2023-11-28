@@ -86,3 +86,8 @@ items.forEach((item) => {
 items.forEach((item) => {
     console.log(item.price);
 })
+
+const finddd = items.some((item) => {
+    return item.price <=  100;
+})
+console.log(finddd)
