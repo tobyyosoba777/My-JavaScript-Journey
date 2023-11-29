@@ -91,3 +91,18 @@ const finddd = items.some((item) => {
     return item.price <=  100;
 })
 console.log(finddd)
+
+const findNew = items.map((item) => {
+    return item.price;
+})
+console.log(JSON.stringify(findNew));
+
+const findKey = items.find((item) => {
+    return item.price === 100;
+})
+console.log(findKey)
+
+const findKeyNew = items.find((item) => {
+    return item.name === 'Keyboard';
+})
+console.log(findKeyNew);
