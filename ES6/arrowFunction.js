@@ -119,6 +119,9 @@ console.log(filter);
 const concatenateFunction = (arr1, arr2) => arr1.concat(arr2);
 console.log(concatenateFunction([1,5,10], [15, 20])); 
 
+const adding = (arr1, arr2) => arr1.concat(arr2);
+console.log(adding([0,0,9], [1,2,3]));
+
 //Find the square of the array
 const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6]
 const findSquare = realNumberArray.map((i) => {
@@ -149,6 +152,11 @@ const sFunction = (arr) => {
 const sList = sFunction(realNumberArray)
 console.log(sList)
 
-
+const mapped = (arr) => {
+    const slist = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x)
+    return slist
+}
+const slist = mapped([-1,-2,0,40, 100]);
+console.log(slist)
 
 
