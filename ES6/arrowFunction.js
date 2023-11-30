@@ -159,4 +159,14 @@ const mapped = (arr) => {
 const slist = mapped([-1,-2,0,40, 100]);
 console.log(slist)
 
+const newmap = (arr) => {
+    const slist = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x);
+    return slist
+}
+slists = newmap([-0, 90, 3]);
+console.log(slists)
 
+const addNumbers = (arr) => {
+    return arr.reduce((a, b) => a+b, 0);
+}
+console.log(addNumbers([1,2,3,4,5]))

@@ -1,0 +1,24 @@
+const maxValue = (arr) => {
+    return Math.max(arr)
+}
+console.log(maxValue([1,2,4,5,6]))
+
+In this example, you are passing the entire array arr as an argument to Math.max. 
+The Math.max function expects individual numeric arguments, not an array. Therefore, 
+when you pass an array, it treats the entire array as a single argument, and since 
+it's not a valid numeric value, it results in NaN (Not a Number).
+
+
+BUT ======>>>>
+const maxValue = (arr) => {
+    return Math.max(..arr)
+}
+console.log(maxValue([1,2,3,4,5]))
+
+This works because 
+
+the spread (...) operator is used to spread the elements of the array as individual 
+arguments to the Math.max function. This allows Math.max to properly compare and find 
+the maximum value among the numeric elements in the array.
+
+
