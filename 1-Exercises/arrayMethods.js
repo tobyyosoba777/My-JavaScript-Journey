@@ -42,3 +42,7 @@ const upperCase = (arr) => {
 console.log(upperCase(["hi", "my", "name", "is", "tobiloba"]))
 
 //Remove Duplicate values from an array
+const removeDuplicate = (arr) => {
+    return [...new Set(arr)];
+}
+console.log(removeDuplicate([1,2,3,4,5,6,6,7,8,7]))
