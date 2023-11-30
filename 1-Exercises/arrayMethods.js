@@ -7,9 +7,6 @@ const sum = (arr) => {
 }
 console.log(sum([1,2,3,4,5,6]))
 
-const suma = (arr) => {
-    return arr.reduce()
-}
 
 //Filter odd numbers out
 const filterOdd = (arr) => {
@@ -30,3 +27,16 @@ const maxValue = (arr) => {
     return Math.max(...arr);
 }
 console.log(maxValue([1,2,4,5,6]))
+
+
+//Transform To UpperCase
+// Question: Create a function that takes an array of strings and transforms each string to uppercase using the map method.
+const upper = (arr) => {
+    return arr.map(str => str.toUpperCase())
+}
+console.log(upper(["hello", "name"]))
+
+const upperCase = (arr) => {
+    return arr.map(item => item.toUpperCase())
+}
+console.log(upperCase(["hi", "my", "name", "is", "tobiloba"]))                         
