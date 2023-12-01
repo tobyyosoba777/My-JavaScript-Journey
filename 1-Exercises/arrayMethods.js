@@ -46,3 +46,8 @@ const removeDuplicate = (arr) => {
     return [...new Set(arr)];
 }
 console.log(removeDuplicate([1,2,3,4,5,6,6,7,8,7]))
+
+const remove = (arr) => {
+    return [...new Set(arr)];
+}
+console.log(remove([1,2,3,4,55,5,5,55,5,55,5,5,5,5,55,5,55,5,5,55,7,8,8,8,7,6,67,765,57,765]))
