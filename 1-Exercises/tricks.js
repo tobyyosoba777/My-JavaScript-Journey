@@ -5,7 +5,7 @@ var techBrands = [
     "Threads",
     "Twitter"
 ]
-const obj = {...techBrands}
+const obj = {...techBrands, ...techBrands}
 console.log(obj) 
 
 //Fill array with data
