@@ -106,3 +106,8 @@ const findKeyNew = items.find((item) => {
     return item.name === 'Keyboard';
 })
 console.log(findKeyNew);
+
+const fin = items.find((item) => {
+    return item.name === "Keyboard";
+})
+console.log(fin)
