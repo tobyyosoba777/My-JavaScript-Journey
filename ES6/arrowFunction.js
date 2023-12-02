@@ -170,3 +170,15 @@ const addNumbers = (arr) => {
     return arr.reduce((a, b) => a + b, 0);
 }
 console.log(addNumbers([1,2,3,4,5]))
+
+
+//Better way fo filter numbers greater than 0 and return their squares using filter and map methods
+const snew = (arr) => {
+    return arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x)   
+}
+console.log(snew([-20, 90, 90, 90]))
+
+const snew2 = (arr) => {
+    return arr.filter(num => Number.isInteger(num) && num > 0).map(x => x ** 2)
+}
+console.log(snew2([90,0,-20, 12]))
