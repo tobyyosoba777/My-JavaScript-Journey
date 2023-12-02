@@ -182,3 +182,8 @@ const snew2 = (arr) => {
     return arr.filter(num => Number.isInteger(num) && num > 0).map(x => x ** 2)
 }
 console.log(snew2([90,0,-20, 12]))
+
+const snew3 = (arr) => {
+    return arr.filter(num => Number.isInteger(num) && num > 0).map(x => x ** 2)
+}
+console.log(snew3([20,-10,20,-20,11]))
