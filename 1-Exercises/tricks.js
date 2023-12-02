@@ -46,3 +46,7 @@ var two = [
 ]
 var joined = [...one, ...two]
 console.log(joined);
+
+const doubled = (arr) => {
+    return arr.map()
+}

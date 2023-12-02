@@ -51,3 +51,8 @@ const remove = (arr) => {
     return [...new Set(arr)];
 }
 console.log(remove([1,2,3,4,55,5,5,55,5,55,5,5,5,5,55,5,55,5,5,55,7,8,8,8,7,6,67,765,57,765]))
+
+const sumofSquare = (arr) => {
+    return arr.reduce((a, b) => a + b ** 2, 0)
+}
+console.log(sumofSquare([1,2,3,4]))
