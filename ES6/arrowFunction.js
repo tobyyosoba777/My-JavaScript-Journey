@@ -167,6 +167,6 @@ slists = newmap([-0, 90, 3]);
 console.log(slists)
 
 const addNumbers = (arr) => {
-    return arr.reduce((a, b) => a+b, 0);
+    return arr.reduce((a, b) => a + b, 0);
 }
 console.log(addNumbers([1,2,3,4,5]))
