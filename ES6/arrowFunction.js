@@ -198,4 +198,4 @@ const snew5 = (arr) => {
 }
 console.log(snew5([-10, 90, 90, 2, 2, 2, 2]))
 
-//Write Higher order arrow functions 
+//Write Higher order arrow functions
