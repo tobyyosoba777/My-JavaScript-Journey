@@ -72,3 +72,12 @@ const flattenArray = (arr) => {
 }
 console.log(flattenArray([1,2, [3], [[5,6]]]))
 
+//Multiplication table 
+const multiplicationTable = (num) => {
+    result = "";
+    for(let i = 0; i <= 12; i++) {
+        result += `${num} * ${i} = ${num * i}\n`;
+    }
+    return result
+}
+console.log(multiplicationTable(11))
