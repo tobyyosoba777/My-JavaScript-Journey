@@ -47,6 +47,7 @@ var two = [
 var joined = [...one, ...two]
 console.log(joined);
 
-const doubled = (arr) => {
-    return arr.map()
-}
+const doubled = arr => arr.map(num => num * 2)
+
+//You cannot pass in a single number here only an array to be looped through because 
+console.log(doubled([1,2]))
