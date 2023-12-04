@@ -35,3 +35,12 @@ function birthYearCalculator(age) {
 }
 birthYearCalculator(19)
 
+//Create a function to take in number and then returns a multiplication table for it
+const multiplicationTable = (num) => {
+    result = "";
+    for(let i = 0; i <= 12; i++) {
+        result += `${num} * ${i} = ${num * i}\n`;
+    }
+    return result;
+}
+console.log(multiplicationTable(10))
