@@ -1,6 +1,15 @@
 // Beeginers challenge
 //Exercise 1
 
+//Push even numbers to an array
+var arrin = []
+for(i = 1; i <= 10; i++) {
+    if(i % 2 == 0){
+        arrin.push(i)
+    }
+}
+console.log(arrin)
+
 //Sum of Array
 const sum = (arr) => {
     return arr.reduce((a, b) => a + b, 0);
@@ -56,3 +65,10 @@ const sumofSquare = (arr) => {
     return arr.reduce((a, b) => a + b ** 2, 0)
 }
 console.log(sumofSquare([1,2,3,4]))
+
+//Flatten array
+const flattenArray = (arr) => {
+    return arr.flat(Infinity);
+}
+console.log(flattenArray([1,2, [3], [[5,6]]]))
+
