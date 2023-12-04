@@ -31,3 +31,9 @@ const tryagain = (num) => {
     return result
 }
 console.log(tryagain(14));
+
+//Flatten array
+const flattenArray = (arr) => {
+    return arr.flat(Infinity);
+}
+console.log(flattenArray([1,2,34,5,[[3,4,5], 99], [[89]], [[2345]]]))
