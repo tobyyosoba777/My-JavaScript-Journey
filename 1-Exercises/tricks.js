@@ -49,5 +49,11 @@ console.log(joined);
 
 const doubled = arr => arr.map(num => num * 2)
 
-//You cannot pass in a single number here only an array to be looped through because 
+//You cannot pass in a single number here only an array to be looped through because we use "num to loop through"
 console.log(doubled([1,2]))
+
+//Example, we passed in an array of [1,2,3] so it will loop through the array and return double the result 
+const doubled1 = (arr) => {
+    return arr.map(item => item * 2);
+}
+console.log(doubled1([1,2,3]));
