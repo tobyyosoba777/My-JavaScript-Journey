@@ -198,4 +198,10 @@ const snew5 = (arr) => {
 }
 console.log(snew5([-10, 90, 90, 2, 2, 2, 2]))
 
+const snew6 = (arr) => {
+    return arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x);
+}
+console.log(snew6([-10,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1]))
+
 //Write Higher order arrow functions
+
