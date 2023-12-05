@@ -204,3 +204,10 @@ const snew6 = (arr) => {
 console.log(snew6([-10,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1]))
 
 //Write Higher order arrow functions
+const increment = function() {
+    return function increment(number, value=1) {
+        return number + value;
+    }
+} ();
+console.log(increment(5, 2))
+console.log(increment(5)) 
