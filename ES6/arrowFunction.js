@@ -241,3 +241,5 @@ const sumins = (function() {
     }
 })()
 console.log(sumins(20,20, 20, 290));
+
+const sumin2 = ()
