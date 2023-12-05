@@ -91,10 +91,14 @@ const myLaptop = (function(nm, model ,drive, processor) {
         "model": model,
         "drive": drive,
         "processor": processor,
-        displayBrand: (function () {
+        display_drive: (function() {
+            console.log(`Drive Details: ${this.drive}`)
+        }),
+        displayInfo: (function () {
             console.log(`Laptop brand: ${this.brand_name} ${this.model} with a storage of
             ${this.drive} and comes with an ${this.processor} processor`);
         })
     }
 })('HP', 'Elitebook 8470p', 'Intel SSD 180gb', 'Intel core i5')
-myLaptop.displayBrand()
+myLaptop.display_drive();
+myLaptop.displayInfo();
