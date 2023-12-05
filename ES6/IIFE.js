@@ -24,10 +24,41 @@ var something = (function (word) {
 
 
 
-var testing = (function() {
+var testing = (function(nm) {
     return {
-        "name": "Tobiloba",
+        "name": nm,
         "age": 19,
-        "id": 200129034
+        "id": 200129034,
+        x:  function(){
+            return "Hello";
+        }
     }
-})();
+})("Tobiloba");
+console.log(testing.name, testing.age)
+testing.x()
+
+let details = (function (nm) {
+    return {
+        "name": nm,
+        "age": 19,
+        "id": 200129034,
+        x : (function (nam) {
+            nam = this.name;
+            return nam;
+        })
+    }
+})("Tobiloba");
+console.log(details.x())
+
+const details1 = (function(nm) {
+    return {
+        "name": nm,
+        "age": 19,
+        "id": 200129034,
+        x: (function() {
+             console.log(this.name);
+        })
+    }
+})("Osoba")
+details1.x()
+console.log(details1.age)
