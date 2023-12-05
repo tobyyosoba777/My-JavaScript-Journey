@@ -141,3 +141,15 @@ const increment1 = (function() {
 })()
 increment1(20,202);
 
+const increment2 = (function() {
+    return function increment2(num, value = 1) {
+        console.log(`Sum: ${num + value}`);
+    }
+})()
+
+const increment3 = (function (num, value = 1) {
+    return function() {
+        return `${num + value}`
+    }
+})(220, 405)
+console.log(increment3())
