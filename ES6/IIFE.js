@@ -22,6 +22,8 @@ var something = (function (word) {
     console.log(word);
 })('HMM IIFE') //This automatically execute without having to call the function because it is immediately invoked funtion (IIFE);
 
+
+
 var testing = (function() {
     return {
         "name": "Tobiloba",
