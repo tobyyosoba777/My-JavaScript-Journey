@@ -1,4 +1,8 @@
-//IIFE Stands for Immediately Invoked Function Expression
+//IIFE - Immediately Invoked Function Expression
+
+function doSomething() {
+    //function declaration
+}
 
 //Over here the function 'firstword' is what we refer to as an anonymous function and it is not called directly
 var logword = function (word) {
