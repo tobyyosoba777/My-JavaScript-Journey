@@ -63,10 +63,22 @@ const details1 = (function(nm) {
 details1.x()
 console.log(details1.age)
 
+
+
 const details2 = (function(nm) {
     return {
         "name" : nm,
         "age" : 19,
-        "matric_no" : 200129034
+        "matric_no" : 200129034,
+        namee: (function() {
+            console.log(this.name)
+        }),
+        displayAge: (function() {
+            word = "The age is";
+            console.log(`${word}: ${this.age}`); 
+        })
     }
-})('Tobiloba Osoba')
+})('Tobiloba Osoba');
+
+console.log(details2.namee())
+details2.displayAge()
