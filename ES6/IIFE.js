@@ -134,9 +134,4 @@ const increment = (function() {
 increment(20, 5);
 
 //Another Practice
-const increment1 = (function() {
-    return function increment(number, value) {
-        return `${number + value}`
-    }
-})()
-console.log(increment1(10, 53))
+const increment1
