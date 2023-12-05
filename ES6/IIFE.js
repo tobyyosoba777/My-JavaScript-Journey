@@ -82,3 +82,19 @@ const details2 = (function(nm) {
 
 console.log(details2.namee())
 details2.displayAge()
+
+
+
+const myLaptop = (function(nm, model ,drive, processor) {
+    return {
+        "brand_name": nm,
+        "model": model,
+        "drive": drive,
+        "processor": processor,
+        displayBrand: (function () {
+            console.log(`Laptop brand: ${this.brand_name} ${this.model} with a storage of
+            ${this.drive} and comes with an ${this.processor} processor`);
+        })
+    }
+})('HP', 'Elitebook 8470p', 'Intel SSD 180gb', 'Intel core i5')
+myLaptop.displayBrand()
