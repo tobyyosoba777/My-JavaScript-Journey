@@ -134,4 +134,6 @@ const increment = (function() {
 increment(20, 5);
 
 //Another Practice
-const increment1
+const increment1 = (function() {
+    
+})
