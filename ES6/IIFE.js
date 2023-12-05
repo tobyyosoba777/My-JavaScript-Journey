@@ -138,5 +138,5 @@ const increment1 = (function() {
     return function increment(number, value) {
         return `${number + value}`
     }
-})
-console.log(increment1)
+})()
+console.log(increment1(10, 10))
