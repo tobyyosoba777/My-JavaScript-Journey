@@ -211,3 +211,21 @@ const increment = function() {
 } ();
 console.log(increment(5, 2))
 console.log(increment(5)) 
+
+const increment1 = (function() {
+    return function increment1(num, value = 1) {
+        return num + value;
+    }
+})
+console.log(increment(10, 95))
+
+
+
+//Using the rest operator with function parameters
+const sumin = (function() {
+    return function sum(x, y, z) {
+        const args = [x,y,z]
+        return args.reduce((a, b) => a+b, 0)
+    };
+})();
+console.log(sumin(90, 90, 80))
