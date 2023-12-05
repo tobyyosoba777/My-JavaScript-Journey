@@ -96,9 +96,39 @@ const myLaptop = (function(nm, model ,drive, processor) {
         }),
         displayInfo: (function () {
             console.log(`Laptop brand: ${this.brand_name} ${this.model} with a storage of
-            ${this.drive} and comes with an ${this.processor} processor`);
+            ${this.drive} and comes with an ${this.processor} processor\n`);
         })
     }
 })('HP', 'Elitebook 8470p', 'Intel SSD 180gb', 'Intel core i5')
 myLaptop.display_drive();
 myLaptop.displayInfo();
+
+
+
+const myPhone = (function(name, storage, ram) {
+    return {
+        "name": name,
+        "storage": storage,
+        "ram": ram,
+        displayName: (function() {
+            console.log(`Phone name: ${this.name}`);
+        }),
+        displayStorage: (function() {
+            console.log(`Storage Capacity: ${this.storage}`);
+        }),
+        displayRam: (function () {
+            console.log(`Ram Info: ${this.ram}`);
+        })
+    }
+})('Infinix smart 5', '32gb', '2gb');
+
+myPhone.displayName();
+myPhone.displayStorage();
+myPhone.displayRam();
+
+const increment = (function() {
+    return function increment(number, value = 1) {
+        console.log(`${number + value}`);
+    };
+})();
+increment(20, 5);
