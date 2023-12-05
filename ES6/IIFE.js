@@ -62,3 +62,11 @@ const details1 = (function(nm) {
 })("Osoba")
 details1.x()
 console.log(details1.age)
+
+const details2 = (function(nm) {
+    return {
+        "name" : nm,
+        "age" : 19,
+        "matric_no" : 200129034
+    }
+})('Tobiloba Osoba')
