@@ -139,4 +139,4 @@ const increment1 = (function() {
         return `${number + value}`
     }
 })()
-console.log(increment1(10, 10))
+console.log(increment1(10, 53))
