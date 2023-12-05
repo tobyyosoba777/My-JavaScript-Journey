@@ -229,3 +229,15 @@ const sumin = (function() {
     };
 })();
 console.log(sumin(90, 90, 80))
+
+
+
+
+//A better way to do the above using the rest function
+
+const sumins = (function() {
+    return function sumins(...args) {
+        return args.reduce((a, b) => a + b, 0);
+    }
+})()
+console.log(sumins(20,20, 20, 290));
