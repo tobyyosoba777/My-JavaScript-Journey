@@ -81,3 +81,12 @@ const multiplicationTable = (num) => {
     return result
 }
 console.log(multiplicationTable(11))
+
+const multtable = (num) => {
+    result = "";
+    for(let i = 1; i<=12; i++) {
+        result += `${num} * ${i} = ${num * i}\n`
+    }
+    return result;
+}
+console.log(multtable(20))
