@@ -135,5 +135,8 @@ increment(20, 5);
 
 //Another Practice
 const increment1 = (function() {
-    
-})
+    return function increment(num, value = 1) {
+        console.log(`${num + value}`)
+    }
+})()
+increment1(20,202);
