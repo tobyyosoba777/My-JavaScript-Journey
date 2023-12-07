@@ -208,3 +208,5 @@ const mySelf = (function (name, id, height, otherName) {
 })("Tobiloba", 200129034, "6'2", "Robot");
 mySelf.displayName().firstName();
 mySelf.displayName().otherNames();
+
+//Use The Spread Operator to evaluate values in place
