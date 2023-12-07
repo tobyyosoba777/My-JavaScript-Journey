@@ -178,18 +178,23 @@ const increment6 = (function() {
 })()
 increment6(20, 80)
 
-const mySelf = (function (name, id, height) {
+const mySelf = (function (name, id, height, otherName) {
     return {
         "name": name,
         "id": id,
         "height": height,
-        displayName: (function () {
+        "otherName": otherName,
+        displayName: (function (otherN) {
             return {
+                other: otherN,
                 firstName: (function() {
                     console.log("first name is tobiloba");
                 }),
                 lastName: (function() {
-                    console.log("last name is Osoba");
+                    console.log("last name is: Osoba");
+                }),
+                otherNames: (function () {
+                    console.log(`Other name is: ${this.other}`);
                 })
             }
         }),
@@ -200,5 +205,6 @@ const mySelf = (function (name, id, height) {
             console.log(`my height is ${this.height}`);
         })
     }
-})("Tobiloba", 200129034, "6'1");
-mySelf.displayName().firstName();
+})("Tobiloba", 200129034, "6'1", "Gideon");
+
+mySelf.displayName().otherNames();
