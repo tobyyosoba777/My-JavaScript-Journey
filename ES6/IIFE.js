@@ -205,6 +205,6 @@ const mySelf = (function (name, id, height, otherName) {
             console.log(`my height is ${this.height}`);
         })
     }
-})("Tobiloba", 200129034, "6'2", "Gideon");
+})("Tobiloba", 200129034, "6'2", "Robot");
 mySelf.displayName().firstName();
 mySelf.displayName().otherNames();
