@@ -194,7 +194,7 @@ const mySelf = (function (name, id, height, otherName) {
                     console.log("last name is: Osoba");
                 }),
                 otherNames: (function () {
-                    console.log(`Other name is: ${this.other}`);
+                    console.log(`Other name is: ${this.otherName}`);
                 })
             }
         }),
@@ -206,5 +206,5 @@ const mySelf = (function (name, id, height, otherName) {
         })
     }
 })("Tobiloba", 200129034, "6'1", "Gideon");
-
+mySelf.displayName().firstName();
 mySelf.displayName().otherNames();
