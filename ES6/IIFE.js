@@ -153,3 +153,10 @@ const increment3 = (function (num, value = 1) {
     }
 })(220, 405)
 console.log(increment3())
+
+const increment4 = (function(num, value = 1) {
+    return function(){
+        return(`${num + value} mhz`); 
+    }
+})(111, 1222);
+console.log(increment4());
