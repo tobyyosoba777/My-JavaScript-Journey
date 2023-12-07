@@ -126,6 +126,9 @@ myPhone.displayName();
 myPhone.displayStorage();
 myPhone.displayRam();
 
+
+
+
 const increment = (function() {
     return function increment(number, value = 1) {
         console.log(`${number + value}`);
@@ -160,3 +163,42 @@ const increment4 = (function(num, value = 1) {
     }
 })(111, 1222);
 console.log(increment4());
+
+const increment5 = (function (num, value = 1) {
+    return function() {
+        return `${num + value}`;
+    }
+})(20, 90)
+console.log(increment5())
+
+const increment6 = (function() {
+    return function increment6(num, value = 1) {
+        console.log(`${num + value}`);
+    }
+})()
+increment6(20, 80)
+
+const mySelf = (function (name, id, height) {
+    return {
+        "name": name,
+        "id": id,
+        "height": height,
+        displayName: (function () {
+            return {
+                firstName: (function() {
+                    console.log("first name is tobiloba");
+                }),
+                lastName: (function() {
+                    console.log("last name is Osoba");
+                })
+            }
+        }),
+        displayId: (function() {
+            console.log(`My matric number is: ${this.id}`);
+        }),
+        displayHeight: (function() {
+            console.log(`my height is ${this.height}`);
+        })
+    }
+})("Tobiloba", 200129034, "6'1");
+mySelf.displayName().firstName();
