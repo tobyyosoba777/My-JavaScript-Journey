@@ -262,6 +262,16 @@ function printManyTimes(str) {
 }
 console.log(printManyTimes("Tobiloba Osoba"));
 
+
+//Create a function that reverses a string 
+function reverse(str) {
+    "use strict";
+
+    return str.split("").reverse().join("");
+}
+console.log(reverse("tobi"))
+ 
+
 //Mutate array declared with const
 const s = [5,7,2];
 function editInPlace() {
