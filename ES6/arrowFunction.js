@@ -248,3 +248,7 @@ const addup = (function() {
     }
 })()
 console.log(addup(1,2,3,4,5))
+
+//Write an arrow function that reverses a string
+const reverseString = (str) => {return str.split("").reverse().join("")}
+console.log(reverseString("Tobiloba Osoba"));
