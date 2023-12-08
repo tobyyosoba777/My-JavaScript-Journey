@@ -253,3 +253,4 @@ console.log(addup(1,2,3,4,5))
 const reverseString = (str) => {return str.split("").reverse().join("")}
 console.log(reverseString("Tobiloba Osoba")); 
 console.log("Hello Git")
+console.log("Hello Github")
