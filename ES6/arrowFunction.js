@@ -253,3 +253,17 @@ console.log(addup(1,2,3,4,5))
 const reverseString = (str) => {return str.split("").reverse().join("")}
 console.log(reverseString("Tobiloba Osoba")); 
 console.log(reverseString("racecaR"))
+
+
+//A trick i came up with to check if a string is a palindrome haha
+const pali = (str) => {
+    const a = str.toLowerCase();
+    const b = a.split("").reverse().join("");
+    if(a == b) {
+        return "Palindrome"
+    }
+    else {
+        return "Not a palindrome"
+    }
+}
+console.log(pali("lawal"))
