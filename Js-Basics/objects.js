@@ -673,3 +673,16 @@ function freezeObj() {
 }
 const PI = freezeObj();
 console.log(PI);
+
+//ProtoTypes
+function personnn(fname, lname) {
+    this.firstname = fname,
+    this.lastName = lname
+}
+
+personnn.prototype.getFullname = function() {
+    return this.firstname + " " + this.lastName;
+};
+const person1 = new personnn("Mark", "Zuckerberg");
+const person2 = new personnn("linus", "torvalds");
+console.log(person2)
