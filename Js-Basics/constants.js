@@ -16,3 +16,10 @@ let middleName = undefined; //undefined
 let selectedColor = null;
 
 
+const arr9 = [
+    ["key 1", "value1"],
+    ["key2", "value 2"]
+  ];
+  
+  const obj = Object.fromEntries(arr9)
+  console.log(obj);

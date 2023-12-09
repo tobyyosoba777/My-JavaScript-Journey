@@ -674,6 +674,8 @@ function freezeObj() {
 const PI = freezeObj();
 console.log(PI);
 
+
+
 //ProtoTypes
 function personnn(fname, lname) {
     this.firstname = fname,
@@ -687,12 +689,26 @@ const person1 = new personnn("Mark", "Zuckerberg");
 const person2 = new personnn("linus", "torvalds");
 console.log(person2)
 
+
+
+
 //Convert Array to object
+const arr10 = [
+    ["key 1", "value1"],
+    ["key2", "value 2"]
+  ];
+  
+  obj1 = Object.fromEntries(arr10)
+  console.log(obj1);
+
+
 
 const arr9 = [
     ["key 1", "value1"],
     ["key2", "value 2"]
 ];
 
-const obj = Object.fromEntries(arr9)
+
+obj = Object.fromEntries(arr9)
 console.log(obj);
+
