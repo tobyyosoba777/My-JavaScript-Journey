@@ -712,3 +712,11 @@ const arr11 = [
 obj = Object.fromEntries(arr11)
 console.log(obj);
 
+const toBeConverted = [
+    ["Key 1", "Hello World"],
+    ["Key 2", "This is a key value"],
+    ["Key 3", "I am testing"]
+]
+var converted;
+converted = Object.fromEntries(toBeConverted);
+console.log(converted);
