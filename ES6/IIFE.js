@@ -209,4 +209,34 @@ const mySelf = (function (name, id, height, otherName) {
 mySelf.displayName().firstName();
 mySelf.displayName().otherNames();
 
+const today = (function (today, yesterday, tomorrow) {
+    return {
+        "today": today,
+        "yesterday": yesterday,
+        "tomorrow": tomorrow,
+        displayToday: function() {
+            console.log(`today is ${this.today}`);
+        },
+        displayYesterday: function() {
+            console.log(`Yesterday was ${this.yesterday}`);
+        },
+        displayTomorrow: function() {
+            console.log(`Tomorrow is ${tomorrow}`)
+        },
+        misc: (function(one, two, three) {
+            return {
+                "a": one,
+                "b": two,
+                "c": three,
+                "d": function() {
+                    console.log(`This is ${this.c} `);
+                }
+            }
+        })("one", "two", "three")
+    }
+})("Sunday", "Saturday", "Monday");
+today.displayToday()
+today.displayTomorrow()
+today.misc.d()
+
 //Use The Spread Operator to evaluate values in place
