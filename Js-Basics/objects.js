@@ -703,12 +703,12 @@ const arr10 = [
 
 
 
-const arr9 = [
+const arr11 = [
     ["key 1", "value1"],
     ["key2", "value 2"]
 ];
 
 
-obj = Object.fromEntries(arr9)
+obj = Object.fromEntries(arr11)
 console.log(obj);
 
