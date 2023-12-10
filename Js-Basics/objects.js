@@ -731,3 +731,71 @@ class User {
   
 const user1 = User.createUser("john", "john@example.com");
 console.log(user1); // { username: "john", email: "john@example.com" }
+
+
+
+
+
+//Object.fromEntries() for Object transformations
+const object1 = {a:1, b:2, c:3}
+
+const object2 = Object.fromEntries(
+    Object.entries(object1).map(([key, val]) => [key, val * 2])
+)
+console.log(object2)
+
+const test1 = {a:2, b:4, c:6}
+const test2 = Object.fromEntries(
+    Object.entries(test1).map(([x, y]) => [x, y *2])
+)
+console.log(test2);
+
+const sumr = (function () {
+    return function sumr(...args) {
+        b = args.reduce((p, t) => p + t, 0)
+        console.log(b)
+    }
+})()
+sumr(20, 20, 20, 20, 20, 40);
+
+//Using destructuring assignment to assign variables from Objects
+var voxel = {x: 1.21, y: 9.1, z: 7.91};
+
+var x = voxel.x;
+var y = voxel.y;
+var z = voxel.z;
+
+var {x : a, y : b, c : z} = voxel;
+
+const AVG_TEMPERATURE = {
+    today: 77.5,
+    tomorrow: 79
+};
+
+function getTempOfTmrw(avgTemperature) {
+    const {tomorrow : tempOfTomorrow} = avgTemperature;
+    return tempOfTomorrow;
+}
+console.log(getTempOfTmrw(AVG_TEMPERATURE))  
+
+const LOCAL_FOREST = {
+    yesterday: {min: 71.5, max: 88.77},
+    today: {min: 72, max: 83},
+    tomorrow: {min: 73.3, max: 84.6}
+};
+
+function getMaxOfTomorrow(forecast) {
+    const maxOfT = `The max of tomrorrow is: ${forecast.tomorrow.max}`;
+    return maxOfT;
+}
+
+console.log(getMaxOfTomorrow(LOCAL_FOREST));
+
+
+const getMinOfYesterday = ((forecast) => {
+    return function getMinOfYesterday () {
+        const minOfT = `Yesterday's min: ${forecast.yesterday.min}`
+        return minOfT;
+    }
+})(LOCAL_FOREST);
+console.log(getMinOfYesterday())

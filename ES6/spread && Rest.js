@@ -1,20 +1,20 @@
-const makeWithdraw = (balance) =>
-  ((copyBalance) => {
-    let balance = copyBalance; // This variable is private
-    const doBadThings = () => {
-      console.log("I will do bad things with your money");
-    };
-    doBadThings();
-    return {
-      withdraw(amount) {
-        if (balance >= amount) {
-          balance -= amount;
-          return balance;
-        }
-        return "Insufficient money";
-      },
-    };
-  })(balance);
+// const makeWithdraw = (balance) =>
+//   ((copyBalance) => {
+//     let balance = copyBalance; // This variable is private
+//     const doBadThings = () => {
+//       console.log("I will do bad things with your money");
+//     };
+//     doBadThings();
+//     return {
+//       withdraw(amount) {
+//         if (balance >= amount) {
+//           balance -= amount;
+//           return balance;
+//         }
+//         return "Insufficient money";
+//       },
+//     };
+//   })(balance);
 
 const firstAccount = makeWithdraw(100); // "I will do bad things with your money"
 console.log(firstAccount.balance); // undefined
@@ -24,3 +24,12 @@ console.log(firstAccount.doBadThings); // undefined; this method is private
 const secondAccount = makeWithdraw(20); // "I will do bad things with your money"
 console.log(secondAccount.withdraw(30)); // "Insufficient money"
 console.log(secondAccount.withdraw(20)); // 0
+
+//Use the spread operator to evaluate arrays in place
+const arr1 = ["JAN" ,"FEB", "MAR", "APR", "MAY"];
+let arr2;
+(function () {
+    arr2 = [...arr1];
+    arr1[0] = "Potatoes";
+})()
+console.log(arr2)

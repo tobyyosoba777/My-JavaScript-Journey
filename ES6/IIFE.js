@@ -240,3 +240,10 @@ today.displayTomorrow()
 today.misc.d()
 
 //Use The Spread Operator to evaluate values in place
+const arr1 = ["JAN" ,"FEB", "MAR", "APR", "MAY"];
+let arr2;
+(function () {
+    arr2 = [...arr1];
+    arr1[0] = "Potatoes";
+})()
+console.log(arr2)
