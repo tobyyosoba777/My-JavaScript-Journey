@@ -799,3 +799,19 @@ const getMinOfYesterday = ((forecast) => {
     }
 })(LOCAL_FOREST);
 console.log(getMinOfYesterday())
+
+const getMaxOfToday = ((forecast) => {
+    return function getMaxOfToday() {
+        const maxOfT = `Today's Max: ${forecast.today.max}`;
+        return maxOfT;
+    }
+})(LOCAL_FOREST);
+console.log(getMaxOfToday())
+
+const getMinOfTomorrow = ((forecast) => {
+    return function getMinOfTomorrow() {
+        const minOfT = `Tomorrow's min: ${forecast.tomorrow.min}`;
+        console.log(minOfT);
+    }
+})(LOCAL_FOREST);
+getMinOfTomorrow();
