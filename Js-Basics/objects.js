@@ -720,3 +720,14 @@ const toBeConverted = [
 var converted;
 converted = Object.fromEntries(toBeConverted);
 console.log(converted);
+
+
+//createUser is the static method
+class User {
+    static createUser(username, email) {
+      return new User({ username, email });
+    }
+  }
+  
+const user1 = User.createUser("john", "john@example.com");
+console.log(user1); // { username: "john", email: "john@example.com" }
