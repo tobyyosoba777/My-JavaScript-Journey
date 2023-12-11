@@ -819,7 +819,7 @@ getMinOfTomorrow();
 const getMinOfToday = ((forecast) => {
     return function getMinOfToday() {
         const minOfT = `Today's min: ${forecast.today.min}`;
-        console.log(minOfT);
+        console.log(minOfT)
     } 
 })(LOCAL_FOREST)
 getMinOfToday();
