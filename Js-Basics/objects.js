@@ -823,3 +823,16 @@ const getMinOfToday = ((forecast) => {
     } 
 })(LOCAL_FOREST)
 getMinOfToday();
+
+LOCAL_DATA = {
+    name: {first: "Tobiloba", last: "osoba"},
+    school: {matric_no: 200129034, department: "Economics education"}
+}
+
+const firstName = ((data) => {
+    return function firstName() {
+        const fName = `First Name: ${data.name.first}`
+        console.log(fName);
+    }
+})(LOCAL_DATA);
+firstName()
