@@ -836,3 +836,11 @@ const firstName = ((data) => {
     }
 })(LOCAL_DATA);
 firstName()
+
+const lastName = ((data) => {
+    return function lastName() {
+        const lName = `Last Name: ${data.name.last}`;
+        console.log(lName);
+    }
+})(LOCAL_DATA);
+lastName();
