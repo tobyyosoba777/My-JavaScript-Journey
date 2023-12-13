@@ -89,4 +89,4 @@ const multtable = (num) => {
     }
     return result;
 }
-console.log(multtable(20))
+console.log(multtable(25))
