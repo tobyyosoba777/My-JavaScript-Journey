@@ -266,4 +266,4 @@ const pali = (str) => {
         return "Not a palindrome"
     }
 }
-console.log(pali("lawal"))
+console.log(pali("kayak"))
