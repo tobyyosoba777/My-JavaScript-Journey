@@ -825,7 +825,7 @@ const getMinOfToday = ((forecast) => {
 getMinOfToday();
 
 LOCAL_DATA = {
-    name: {first: "Tobiloba", last: "osoba"},
+    name: {first: "Tobiloba", middle:"Gideon", last: "osoba"},
     school: {matric_no: 200129034, department: "Economics education"}
 }
 
