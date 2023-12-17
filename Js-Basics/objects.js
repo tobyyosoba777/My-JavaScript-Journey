@@ -844,3 +844,11 @@ const lastName = ((data) => {
     }
 })(LOCAL_DATA);
 lastName();
+
+const lastname = ((data) => {
+    return function lastname() {
+        const llname = `Last name is: ${data.name.last}`;
+        console.log(llname);
+    }
+})(LOCAL_DATA);
+lastname();
