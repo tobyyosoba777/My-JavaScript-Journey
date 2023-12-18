@@ -873,6 +873,15 @@ const half = (function () {
 console.log(stats);
 half(stats)
 
+
+const halves = (function() {
+    return function halves({ max, min }) {
+        return `${(max + min) / 2}`;
+    }
+})();
+console.log(halves(stats));
+
+
 //Another challenge
 const ages = {
     Demi: 21,
@@ -887,4 +896,3 @@ const calculate = (function() {
 })(ages);
 console.log(ages)
 calculate(ages)
-
