@@ -855,3 +855,16 @@ lastname();
 
 
 //Using Destructuring Assignment to pass an Object as a function's parameter
+const ages = {
+    Demi: 21,
+    Tobi: 19,
+    Michael: 13
+}
+
+const calculate = (function() {
+    return function calculate(ages) {
+        console.log(`${(ages.Demi + ages.Tobi + ages.Michael) * 2}`);
+    }
+})(ages);
+console.log(ages)
+calculate(ages)
