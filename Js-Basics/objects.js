@@ -873,9 +873,7 @@ const half = (function () {
 console.log(stats);
 half(stats)
 
-
-
-
+//Another challenge
 const ages = {
     Demi: 21,
     Tobi: 19,
