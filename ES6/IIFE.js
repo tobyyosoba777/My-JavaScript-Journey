@@ -247,3 +247,4 @@ let arr2;
     arr1[0] = "Potatoes";
 })()
 console.log(arr2)
+

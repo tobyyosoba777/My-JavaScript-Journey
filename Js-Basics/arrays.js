@@ -161,3 +161,11 @@ console.log(sliced)
 //Use Destructuring Assignment to Assign Variables from Arrays
 const [z, x] = [1, 2, 3, 4, 5, 6];
 console.log(z, x);
+
+
+let a = 8, b = 6;
+(() => {
+    "Use Strict";
+    [a, b] = [b, a];
+})()
+console.log(a)
