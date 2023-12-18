@@ -855,6 +855,7 @@ lastname();
 
 
 //Using Destructuring Assignment to pass an Object as a function's parameter
+
 const stats = {
     max: 56.78,
     standard_deviation: 4.34,
