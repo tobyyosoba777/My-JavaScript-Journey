@@ -852,3 +852,6 @@ const lastname = ((data) => {
     }
 })(LOCAL_DATA);
 lastname();
+
+
+//Using Destructuring Assignment to pass an Object as a function's parameter

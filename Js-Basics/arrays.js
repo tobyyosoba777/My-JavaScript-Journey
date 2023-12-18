@@ -181,3 +181,4 @@ function removeFirstTwo(list) {
 const arr = removeFirstTwo(source)
 console.log(arr);
 console.log(source);
+
