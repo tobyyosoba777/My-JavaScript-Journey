@@ -855,6 +855,26 @@ lastname();
 
 
 //Using Destructuring Assignment to pass an Object as a function's parameter
+const stats = {
+    max: 56.78,
+    standard_deviation: 4.34,
+    median: 34.54,
+    mode: 23.87,
+    min: -0.75,
+    average: 35.85
+};
+
+const half = (function () {
+    return function half(stats) {
+        console.log(`(${(stats.max + stats.min) / 2})`);
+    }
+})(stats)
+console.log(stats);
+half(stats)
+
+
+
+
 const ages = {
     Demi: 21,
     Tobi: 19,
@@ -868,3 +888,4 @@ const calculate = (function() {
 })(ages);
 console.log(ages)
 calculate(ages)
+
