@@ -847,7 +847,7 @@ lastName();
 
 const lastname = ((data) => {
     return function lastname() {
-        const llname = `Last name is: ${data.name.last}`;
+        const llname = `Last name: ${data.name.last}`;
         console.log(llname);
     }
 })(LOCAL_DATA);
