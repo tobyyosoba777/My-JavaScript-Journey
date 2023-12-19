@@ -28,15 +28,6 @@ console.log(createList(result.success))
 
 
 
-
-
-
-
-
-
-
-
-
 function makeList(arr) {
     const resultDisplayArray = [];
     for(let i = 0; i<arr.length; i++) {
