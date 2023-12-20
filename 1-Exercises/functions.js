@@ -44,3 +44,4 @@ const multiplicationTable = (num) => {
     return result;
 }
 console.log(multiplicationTable(10))
+
