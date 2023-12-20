@@ -252,6 +252,9 @@ console.log(tobi.targetName);
 
 //Use Class syntax to define a constructor function
 
+//Constructor Function
+
+
 class nameee {
     constructor (targetName) {
         this.targetName = targetName;
@@ -272,3 +275,4 @@ function makeFruit(){
 const vegetable = makeFruit()
 const carrot =  new vegetable;
 console.log(carrot.name);
+
