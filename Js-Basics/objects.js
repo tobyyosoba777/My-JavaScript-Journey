@@ -896,3 +896,25 @@ const calculate = (function() {
 })(ages);
 console.log(ages)
 calculate(ages)
+
+
+const createPerson = (name, age, gender) => ({ name, age, gender });
+console.log(createPerson("Tobiloba", 19, "Male"));
+
+const createPerson1 = (name, age, gender) => {
+    return {
+        name: name,
+        age: age,
+        gender: gender
+    };
+};
+console.log(createPerson("Michael", 13, "Male"));
+
+const createPerson2 = (name, age, gender) => {
+    console.log({
+        name: name,
+        age: age,
+        gender: gender
+    });
+};
+createPerson2("Demilade", 21, "Female");

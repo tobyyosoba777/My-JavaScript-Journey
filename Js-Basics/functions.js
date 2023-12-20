@@ -236,3 +236,24 @@ console.log(newConcat([1,2,34,46], [99,100, 19]))
 
 const testConcat = (arr1, arr2) => arr1.concat(arr2);
 console.log(testConcat([2,4,6], [8,10,12]));
+
+//Write concise Declarative functions
+
+
+
+var namee = function(targetName)  {
+    this.targetName = targetName;
+}
+var tobi = new namee('Tobiloba');
+console.log(tobi.targetName);
+
+
+//Use Class syntax to define a constructor function
+
+class nameee {
+    constructor (targetName) {
+        this.targetName = targetName;
+    }
+}
+var tobi = new namee('Tobiloba Osoba');
+console.log(tobi.targetName);
