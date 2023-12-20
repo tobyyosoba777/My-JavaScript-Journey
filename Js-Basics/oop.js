@@ -22,8 +22,10 @@ class details {
         this.year = year
     }
 }
-var detailsOne = new details 
-console.log(new details('Tobiloba', 200129034, 2020))
+var detailsOne = new details('Tobiloba', 200129034, 2020)
+var detailsTwo = new details('MIchael', 200129022, 2022)
+console.log(detailsOne)
+console.log(detailsTwo)
 
 //The 'new' Keyword:
 // -  creates a new empty object {}
