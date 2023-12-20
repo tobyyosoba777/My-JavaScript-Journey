@@ -1,3 +1,5 @@
+const { func, node } = require("prop-types");
+
 function greet () {
     //the code inside the fucntion is the body of the function
     console.log("Hello World");
@@ -257,3 +259,16 @@ class nameee {
 }
 var tobi = new namee('Tobiloba Osoba');
 console.log(tobi.targetName);
+
+
+function makeFruit(){
+    class vegetable {
+        constructor(name){
+            this.name = name;
+        }
+    }
+    return vegetable;
+}
+const vegetable = makeFruit()
+const carrot =  new vegetable;
+console.log(carrot.name);
