@@ -1,0 +1,1 @@
+import * as capitalizeString from "./capitalize_strings"

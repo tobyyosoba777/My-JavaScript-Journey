@@ -27,6 +27,8 @@ var detailsTwo = new details('MIchael', 200129022, 2022)
 console.log(detailsOne)
 console.log(detailsTwo)
 
+
+
 //The 'new' Keyword:
 // -  creates a new empty object {}
 // -  sets the value of 'this' to be the new empty Object
