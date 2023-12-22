@@ -18,6 +18,7 @@ body {
     cursor: pointer;
 }
 
-.footer {
+.footer, header {
     color: #c0c0c0;
+    font-family: 'Courier New', Courier, monospace;
 }
