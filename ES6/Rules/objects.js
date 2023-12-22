@@ -15,4 +15,4 @@ function address(city, state) {
 
     console.log(newAddress);
 }
-address("Ojo", "Lagos")
+address("Sparklight", "Lagos")
