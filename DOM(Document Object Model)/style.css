@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px ;
+    /* background: #C0C; */
+}
+
+.section1 h2 {
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+
+/* button {
+    border-style: none;
+    padding: 10px;
+    border:  4px double #C0C;
+} */

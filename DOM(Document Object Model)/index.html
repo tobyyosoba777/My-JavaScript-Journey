@@ -4,24 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     
 </head>
 <body>
+    <nav class="header" id="header">
+        <div class="section1">
+            <h2 class="h2">My Little Space</h2>
+            <a href="" id="icon"></a>
+            
+        </div>
+        <div class="section2">
+            <i class="ri-clockwise-2-fill displayTime"></i>
+            <div id="darkmode"></div>
+        </div>
+    </nav>
     <div class="main">
         <p>Hello</p>
     </div>
 
-    <button id="button">Display Time</button>
-    <button id="button1">Display Date</button>
-    <button id="returnDiv">Return Div</button>
-    <button id="displayName">Display Name</button>
-    <button id="displayAge">Display Age</button>
+    <div class="buttons">
+        <button id="button">Display Time</button>
+        <button id="button1">Display Date</button>
+        <button id="returnDiv">Return Div</button>
+        <button id="displayName">Display Name</button>
+        <button id="displayAge">Display Age</button>
+    </div>
+    
     <br><br>
     <p>Time: <span class="result"></span></p>
     <p>Date: <span id="dateResult"></span></p>
     <p>Div Element:-  <span id="divContext"></span></p>
     <p>Name: <span id="nameResult"></span></p>
     <p>Age: <span id="ageResult"></span></p>
+
+
+    <div class="createList">
+        <button id="create">Create</button>
+        <div class="list">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+
+    <div class="palindrome">
+        <header>Check Palindrome</header>
+        <div class="inputBox">
+            <input type="text" name="text" id="text">
+            <button class="checkPalindrome" id="pali">Check</button>
+        </div>
+    </div>
+    
     
     
 

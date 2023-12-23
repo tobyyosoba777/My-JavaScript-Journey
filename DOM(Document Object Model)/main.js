@@ -6,6 +6,23 @@ let dateButton = document.getElementById("button1")
 let returnDiv = document.getElementById("returnDiv")
 let displayName = document.getElementById("displayName");
 let displayAge = document.getElementById("displayAge");
+let navbar = document.getElementById("header");
+let h2der = document.querySelector(".h2").innerText = `My Little Space`;
+let button = document.getElementById("buttons")
+let buttons = document.querySelectorAll("button");
+
+buttons.forEach((button) => {
+    button.style.borderRadius = "10px";
+    button.style.border = "#C0C 4px double";
+    button.style.padding = "10px";
+})
+
+
+
+navbar.style.backgroundColor = "#C0C";
+// document.body.style.backgroundColor = "#C0C0C0";
+
+
 
 divContext = `Hi There
 World\n\n`
@@ -60,3 +77,32 @@ displayAge.addEventListener("click", () => {
     let agee = `${details1.age}`;
     ageResult.innerText = agee;
 })
+
+let create = document.getElementById("create")
+create.style.borderRadius = "10px"
+create.style.margin = "12px 0"
+
+create.addEventListener("click", () => {
+    let list = document.querySelector(".list")
+    createdElement = document.createElement("textarea")
+    createdElement.rows = 10;
+    createdElement.cols = 30;
+    list.appendChild(createdElement);
+})
+
+const mainn = (function() {
+    return function mainn() {
+        
+    }
+})();
+
+
+
+
+
+
+
+
+
+
+
