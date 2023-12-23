@@ -3,9 +3,14 @@ let timeButton = document.getElementById("button")
 let result = document.querySelector(".result")
 let dateResult = document.getElementById("dateResult")
 let dateButton = document.getElementById("button1")
+let returnDiv = document.getElementById("returnDiv")
+let displayName = document.getElementById("displayName");
+let displayAge = document.getElementById("displayAge");
 
-main.innerText = `Hi There
+divContext = `Hi There
 World\n\n`
+
+main.innerText = divContext
 
 const updateTime = () => {
     var date = new Date();
@@ -32,3 +37,26 @@ const displayDay = () => {
     dateResult.innerText = `${day} / ${month} / ${year}`;
 }
 dateButton.addEventListener("click", displayDay);
+
+returnDiv.onclick = () => {
+    let divResult = document.getElementById("divContext");
+    divResult.innerText = divContext
+
+}
+
+const details1 = {
+    name: "Tobiloba Osoba",
+    age: 19,
+}
+
+displayName.addEventListener("click", () => {
+    const nameResult = document.getElementById("nameResult");
+    let namee = `${details1.name}`;
+    nameResult.innerText = namee;
+})
+
+displayAge.addEventListener("click", () => {
+    const ageResult = document.getElementById("ageResult");
+    let agee = `${details1.age}`;
+    ageResult.innerText = agee;
+})
