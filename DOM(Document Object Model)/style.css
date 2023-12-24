@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #fff;
+    transition: .3s ease;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -28,3 +33,10 @@ nav {
     padding: 10px;
     border:  4px double #C0C;
 } */
+
+
+body.dark {
+    background: #333;
+    color: #fff;
+    transition: .3s ease;
+}

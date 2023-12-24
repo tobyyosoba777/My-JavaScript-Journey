@@ -26,9 +26,21 @@ navbar.style.backgroundColor = "#C0C";
 
 divContext = `Hi There
 World\n\n`
-
 main.innerText = divContext
 
+let darkmode = document.getElementById("darkmode")
+darkmode.addEventListener("click", () => {
+    if(darkmode.classList.contains("ri-moon-fill")) {
+        darkmode.classList.replace("ri-moon-fill", "ri-sun-fill");
+        document.body.classList.add("dark")
+    }
+    else {
+        darkmode.classList.replace("ri-sun-fill", "ri-moon-fill");
+        document.body.classList.remove("dark")
+    }
+})
+
+//Function to Display Time
 const updateTime = () => {
     var date = new Date();
     var hours = date.getHours();
