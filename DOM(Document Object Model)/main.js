@@ -97,61 +97,34 @@ const mainn = (function() {
 })();
 
 document.querySelector(".palindrome").style.backgroundColor = "#C065";
-var palText = document.getElementById("text").value.toLowerCase();
 const palButton = document.querySelector(".checkPalindrome")
 
 
-palButton.addEventListener("click", () => {
-    function check(palText) {
-        var palText = document.getElementById("text").value.toLowerCase();
 
+let palB = document.querySelector(".checkPalindrome");
+palB.addEventListener("click", () => {
+    const check = (palText) => {
         let len = palText.length;
         let start = palText.substring(0, Math.floor(len / 2));
         let end = palText.substring(len - Math.floor(len / 2));
-        let flip = start.split("").reverse().join("")
-        if (flip === end) {
-            console.log("Returned True");
+        let flip = end.split("").reverse().join("");
+        if(flip === start) {
+            return true;
         }
         else {
-            console.log("Return False");
+            return false;
         }
     }
-    let palResult = document.getElementById("palResult");
     
+    let palText = document.getElementById("text").value.toLowerCase();
+    let resultElement = document.getElementById("palResult");
     if(check(palText)) {
-        palResult.textContent = "String is a Palindrome";
+        resultElement.textContent = `${palText} is a palindrome`;
     }
     else {
-        palResult.textContent = "Not a palindrome";
+        resultElement.textContent = `${palText} is not a palindrome`
     }
 })
-
-
-
-// function palindrome() {
-
-//     function check(palText) {
-        
-//         let len = palText.length;
-//         let start = palText.substring(0, Math.floor(len / 2));
-//         let end = palText.substring(len - Math.floor(len / 2));
-//         let flip = start.split("").reverse().join("")
-//         if (flip === end) {
-//             console.log("Returned True");
-//         }
-//         else {
-//             console.log("Return False");
-//         }
-//     }
-//     let palResult = document.getElementById("palResult");
-//     if(check(palText)) {
-//         palResult.textContent = "String is a Palindrome";
-//     }
-//     else {
-//         palResult.textContent = "Not a palindrome";
-//     }
-// }
-
 
 
 
