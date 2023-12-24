@@ -124,17 +124,17 @@ palB.addEventListener("click", () => {
             return true;
         }
         else {
-            return false;
+            return false;t
         }
     }
     
     let palText = document.getElementById("text").value.toLowerCase();
     let resultElement = document.getElementById("palResult");
     if(check(palText)) {
-        resultElement.textContent = `${palText} is a palindrome`;
+        resultElement.textContent = `${palText} is a Palindrome`;
     }
     else {
-        resultElement.textContent = `${palText} is not a palindrome`
+        resultElement.textContent = `${palText} is not a palindrome`;
     }
 })
 

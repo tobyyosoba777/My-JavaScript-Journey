@@ -23,5 +23,5 @@ if (isToday15th) {
   console.log("Yes today is the 15th of september");
 }
 else {
-  console.log("Today aint the 15th lil nigga");
+  console.log("Today aint the 15th loll");
 }
