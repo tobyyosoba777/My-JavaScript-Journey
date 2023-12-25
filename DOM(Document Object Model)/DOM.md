@@ -1,17 +1,17 @@
 JavaScript provides a variety of DOM manipulation methods to interact with HTML documents. Here's a list of commonly used JavaScript DOM manipulation methods:
 
- Selecting Elements:
+    Selecting Elements:
         document.getElementById(id): Returns the element with the specified ID.
         document.getElementsByClassName(className): Returns a NodeList of elements with the specified class name.
         document.getElementsByTagName(tagName): Returns a NodeList of elements with the specified tag name.
         document.querySelector(selector): Returns the first element that matches the specified CSS selector.
         document.querySelectorAll(selector): Returns a NodeList of all elements that match the specified CSS selector.
 
- Creating Elements:
+    Creating Elements:
         document.createElement(tagName): Creates a new HTML element with the specified tag name.
         document.createTextNode(text): Creates a new text node with the specified text.
 
- Manipulating Elements:
+    Manipulating Elements:
         element.innerHTML: Gets or sets the HTML content of an element.
         element.innerText or element.textContent: Gets or sets the text content of an element.
         element.setAttribute(name, value): Sets the value of an attribute on an element.
