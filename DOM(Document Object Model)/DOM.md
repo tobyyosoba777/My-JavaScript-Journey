@@ -1,4 +1,4 @@
-JavaScript provides a variety of DOM manipulation methods to interact with HTML documents. Here's a list of commonly used JavaScript DOM manipulation methods:
+#JavaScript provides a variety of DOM manipulation methods to interact with HTML documents. Here's a list of commonly used JavaScript DOM manipulation methods:
 
     Selecting Elements:
         document.getElementById(id): Returns the element with the specified ID.
