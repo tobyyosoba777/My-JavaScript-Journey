@@ -20,6 +20,7 @@ buttons.forEach((button) => {
 
 
 navbar.style.backgroundColor = "#C0C";
+navbar.style.border = "#333 1px solid";
 // document.body.style.backgroundColor = "#C0C0C0";
 
 
@@ -124,7 +125,7 @@ palB.addEventListener("click", () => {
             return true;
         }
         else {
-            return false;t
+            return false;
         }
     }
     
@@ -140,6 +141,63 @@ palB.addEventListener("click", () => {
 
 
 
+//Calculation section
 
 
+const results = document.getElementById("numResult");
 
+let add = document.querySelector(".add");
+let minus = document.querySelector(".minus")
+let divide = document.querySelector(".divide");
+let multiply = document.querySelector(".multiply");
+
+add.addEventListener("click", () => {
+    var inputOne = parseFloat(document.querySelector(".inputOne").value);
+    var inputTwo = parseFloat(document.querySelector(".inputTwo").value);
+    if(!isNaN(inputOne) && !isNaN(inputTwo)) {
+        var sum = inputOne + inputTwo;
+        document.getElementById("numResult").textContent = sum
+    }
+    else {
+        alert("enter valid numbers")
+    }
+})
+
+const minuss = () => {
+    var inputOne = parseFloat(document.querySelector(".inputOne").value);
+    var inputTwo = parseFloat(document.querySelector(".inputTwo").value);
+    if(!isNaN(inputOne) && !isNaN(inputTwo)) {
+        var sum;
+        if(inputOne < inputTwo) {
+            sum = inputTwo - inputOne;
+        }
+        else {
+            sum = inputOne - inputTwo;
+        }
+        document.getElementById("numResult").textContent = sum;
+    }
+    else {
+        alert("enter valid numbers")
+    }
+}
+
+divide.addEventListener("click", () => {
+    var inputOne = parseFloat(document.querySelector(".inputOne").value);
+    var inputTwo = parseFloat(document.querySelector(".inputTwo").value);
+    
+    if(!isNaN(inputOne) && !isNaN(inputTwo)) {
+        var sum = inputOne / inputTwo;
+        document.getElementById("numResult").textContent = sum;
+    }
+})
+
+    
+multiply.onclick = () => {
+    let inputOne = parseFloat(document.querySelector(".inputOne").value);
+    let inputTwo = parseFloat(document.querySelector(".inputTwo").value);
+
+    if(!isNaN(inputOne) && !isNaN(inputTwo)) {
+        var sum = `${inputOne * inputTwo}`;
+        document.getElementById("numResult").textContent = sum;
+    }
+}
