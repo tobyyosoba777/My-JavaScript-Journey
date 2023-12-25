@@ -144,8 +144,6 @@ palB.addEventListener("click", () => {
 //Calculation section
 
 
-const results = document.getElementById("numResult");
-
 let add = document.querySelector(".add");
 let minus = document.querySelector(".minus")
 let divide = document.querySelector(".divide");
