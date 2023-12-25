@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: #374f74;
+}
+
+.container {
+    border:  2px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto 2rem;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 15px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+ul .list-items {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    margin: 3px;
+    text-align: center;
+}
