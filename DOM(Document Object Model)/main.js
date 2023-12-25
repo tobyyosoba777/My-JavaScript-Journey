@@ -13,7 +13,7 @@ let buttons = document.querySelectorAll("button");
 
 buttons.forEach((button) => {
     button.style.borderRadius = "10px";
-    button.style.border = "#C0C 4px double";
+    button.style.border = "#C0C 3px double";
     button.style.padding = "10px";
 })
 
