@@ -59,3 +59,6 @@ const findSomething = (() => {
         console.log(false);
     }
 })()
+
+
+//Parent Node Traversal
