@@ -45,3 +45,17 @@ const firstListItem = document.querySelector('.list-items')
 console.log(firstListItem.innerText);
 console.log(firstListItem.textContent);
 console.log(firstListItem.innerHTML);
+
+
+const findSomething = (() => {
+    let findList = document.querySelectorAll(".list-items");
+    for(i = 0; i<findList.length; i++) {
+        console.log(findList[i].classList.contains('list-items'))
+    }
+    if(findList[1].textContent === "Star Wars") {
+        console.log("true, it contains Star Wars");
+    }
+    else {
+        console.log(false);
+    }
+})()
