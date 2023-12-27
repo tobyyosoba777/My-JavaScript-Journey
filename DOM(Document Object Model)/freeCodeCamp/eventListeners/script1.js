@@ -50,6 +50,6 @@ revealBtn.addEventListener("click", () => {
     }
     else {
         hiddenContent.classList.add('reveal-btn');
-        revealBtn.textContent = "Reveal More"
+        revealBtn.textContent = "Hide All"
     }
 })
