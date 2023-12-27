@@ -4,7 +4,7 @@
 
 //
 
-document.querySelector("#sports").addEventListener("click", (e) => {
+document.getElementById("sports").addEventListener("click", (e) => {
     if(e.target.tagName == "li") {
         console.log("clicked on ", e.textContent)
     }
