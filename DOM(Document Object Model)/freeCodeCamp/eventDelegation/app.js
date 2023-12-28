@@ -23,6 +23,15 @@ sportsBar.addEventListener("click", (e) => {
     }
 });
 
+// sportsBar.addEventListener("click", (e) => {
+//     if(e.target.matches('li')) {
+//         e.target.style.color = '#111';
+//         e.target.style.backgroundColor = "skyBlue";
+//         console.log(e.target.textContent);
+//         console.log(e.target.getAttribute('id') + ' is clicked')
+//     }
+// })
+
 const sports = document.querySelector("#sports");
 const newSport = document.createElement('li');
 
@@ -30,3 +39,13 @@ newSport.innerText = 'Rugby'
 newSport.setAttribute('id', 'rugby')
 
 sports.appendChild(newSport);
+
+const newSport1 = document.createElement('li');
+newSport1.textContent = "Marathon"
+newSport1.setAttribute('id', 'marathon');
+sports.appendChild(newSport1)
+
+const newSport2 = document.createElement('li');
+newSport2.textContent = "Gymnastics";
+newSport2.setAttribute('id', 'gymnastic');
+sports.appendChild(newSport2)
