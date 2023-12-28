@@ -16,7 +16,7 @@ let sportsBar = document.querySelector('#sports');
 sportsBar.addEventListener("click", (e) => {
     if(e.target.tagName === 'LI') {
         e.target.style.backgroundColor = "#fff";
-        e.target.style.color = "#333";
+        e.target.style.color = "#222";
         console.log(e.target.textContent);
         //or
         console.log(e.target.getAttribute('id') + ' is clicked');
