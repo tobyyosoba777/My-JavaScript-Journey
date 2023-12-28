@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+    background-color: #223249;
+    color: #fff;
+}
+
+#sports {
+    border: 3px solid #fff;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+li {
+    border: 1px solid #fff;
+    padding: 8px;
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    margin: 8px;
+    cursor: pointer;
+}
