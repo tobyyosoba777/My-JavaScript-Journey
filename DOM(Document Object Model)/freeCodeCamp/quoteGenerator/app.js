@@ -70,3 +70,7 @@ btn.addEventListener("click", () => {
     quote.textContent = quotes[random].quote;
     person.textContent = quotes[random].person;
 })
+
+btn.addEventListener("click", () => {
+    
+})
