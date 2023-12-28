@@ -64,3 +64,16 @@ body {
     background-color: lightblue;
     
 }
+
+footer {
+    margin: 0 auto;
+    margin-top: 89px;
+    background: #fff ;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 10px;
+}
