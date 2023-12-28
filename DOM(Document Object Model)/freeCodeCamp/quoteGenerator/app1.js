@@ -66,5 +66,6 @@ const quotes = [
 
 btn.addEventListener("click", () => {
     let random = Math.floor(Math.random() * quotes.length);
-    
+    quote.textContent = quotes[random].quote;
+    person.textContent = quotes[random].person;
 })
