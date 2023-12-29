@@ -1,71 +1,92 @@
-let btn = document.querySelector("#new-quote");
-let quote = document.querySelector(".quote");
-let person = document.querySelector(".person");
+let btn = document.querySelector('#new-quote');
+let quote = document.querySelector('.quote');
+let person = document.querySelector('.person')
 
-const quotes = [
+const quotes =  [
     {
-        quote: `"The best way to find yourself is to lose yourself 
-        in the service of others. "`,
-        person: `Mahatma Gandhi`
+      quote: "The only way to do great work is to love what you do.",
+      author: "Steve Jobs"
     },
-
     {
-        quote: `"If you want to live a happy life, tie it to a goal not  
-        to people or other things. "`,
-        person: `Albert Einstein`
+      quote: "In three words I can sum up everything I've learned about life: it goes on.",
+      author: "Robert Frost"
     },
-
     {
-        quote: `"At his best, man is the noblest of all animals; separated 
-        from law and justice he is the worst. "`,
-        person: `Aristotle`
+      quote: "Be yourself; everyone else is already taken.",
+      author: "Oscar Wilde"
     },
-
     {
-        quote: `"Your time is limited so dont waste it living someone 
-        else's life. "`,
-        person: `Steve Jobs`
+      quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      author: "Nelson Mandela"
     },
-
     {
-        quote: `"Tell me and i forget. Teach me and i remember. Involve me 
-        and i learn. "`,
-        person: `Benjamin Franklin`
+      quote: "The future belongs to those who believe in the beauty of their dreams.",
+      author: "Eleanor Roosevelt"
     },
-
     {
-        quote: `"If you look at what you have in life, you'll always have 
-        more. If you look at what you don't have in life, you'll never have 
-        enough. "`,
-        person: `Oprah Winfrey`
+      quote: "It is during our darkest moments that we must focus to see the light.",
+      author: "Aristotle"
     },
-
     {
-        quote: `"It does not matter how slowly you go as long as you do not
-        stop. "`,
-        person: `confucius`
+      quote: "Life is what happens when you're busy making other plans.",
+      author: "John Lennon"
     },
-
     {
-        quote: `"Our lives begin to end the day we become silent about the 
-        things that matter"`,
-        person: `Martin Luther King, Jr. `
+      quote: "Get busy living or get busy dying.",
+      author: "Stephen King"
     },
-
     {
-        quote: `"Remember that not getting what you want is sometimes a 
-        wonderful stroke of luck"`,
-        person: `Dalai Lama`
+      quote: "The purpose of our lives is to be happy.",
+      author: "Dalai Lama"
     },
-
     {
-        quote: `"The journey of a thousand miles begin with one step. "`,
-        person: `Lao Tzu`
+      quote: "You only live once, but if you do it right, once is enough.",
+      author: "Mae West"
+    },
+    {
+      quote: "Life is really simple, but we insist on making it complicated.",
+      author: "Confucius"
+    },
+    {
+      quote: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      author: "Winston Churchill"
+    },
+    {
+      quote: "The only limit to our realization of tomorrow will be our doubts of today.",
+      author: "Franklin D. Roosevelt"
+    },
+    {
+      quote: "The purpose of our lives is to be happy.",
+      author: "Dalai Lama"
+    },
+    {
+      quote: "The only way to achieve the impossible is to believe it is possible.",
+      author: "Charles Kingsleigh"
+    },
+    {
+      quote: "If you want to live a happy life, tie it to a goal, not to people or things.",
+      author: "Albert Einstein"
+    },
+    {
+      quote: "The best way to predict the future is to create it.",
+      author: "Peter Drucker"
+    },
+    {
+      quote: "Success is not in what you have, but who you are.",
+      author: "Bo Bennett"
+    },
+    {
+      quote: "Don't watch the clock; do what it does. Keep going.",
+      author: "Sam Levenson"
+    },
+    {
+      quote: "Your time is limited, don't waste it living someone else's life.",
+      author: "Steve Jobs"
     }
-]
+  ]
 
 btn.addEventListener("click", () => {
     let random = Math.floor(Math.random() * quotes.length);
-    quote.textContent = quotes[random].quote;
-    person.textContent = quotes[random].person;
+    quote.innerText = quotes[random].quote;
+    person.textContent = quotes[random].author;
 })
