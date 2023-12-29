@@ -7,6 +7,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -90,6 +91,11 @@ i {
     font-size: 1.2em;
 }
 
+.button-area button:active {
+    background-color: #d1d1d1;
+    color: rgb(255, 16, 16);
+}
+
 .text-area {
     margin-top: 30px;
     padding: 60px 0;
@@ -99,6 +105,11 @@ i {
 
 .quote {
     font-size: 28px;
+}
+
+footer {
+    margin-top: 25px;
+    color: #fff;
 }
 
 @media screen and (max-width: 730px) {
@@ -113,5 +124,12 @@ i {
         padding: 20px 0;
         align-items: center;
         justify-content: center;
+    }
+    i {
+        font-size: 70px;
+        padding: 10px;
+    }
+    .quote {
+        font-size: 23px;
     }
 }
