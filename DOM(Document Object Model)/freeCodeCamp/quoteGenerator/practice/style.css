@@ -91,6 +91,17 @@ i {
     font-size: 1.2em;
 }
 
+#changeBg {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.1;
+    font-size: 15px;
+    background: transparent;
+    padding: 5px;
+}
+
 .button-area button:active {
     background-color: #d1d1d1;
     color: rgb(255, 16, 16);
