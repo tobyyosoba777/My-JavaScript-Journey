@@ -1,6 +1,7 @@
 let btn = document.querySelector('#new-quote');
 let quote = document.querySelector('.quote');
 let author = document.querySelector('.author');
+let changeBg = document.querySelector('#changeBg')
 
 const quotes = [
       { quote: `"The only way to do great work is to love what you do."`, author: "Steve Jobs" },
@@ -44,8 +45,69 @@ const quotes = [
       { quote: `"The only limit to our realization of tomorrow will be our doubts of today."`, author: "Unknown"}
     ]
 
+const bgImages = [
+    {
+        one: "background: url(./background.jpg) no-repeat center center/ cover;",
+    },
+    {
+        one: "background: url(./bg1.jpg) no-repeat center center/ cover;",
+    },
+    {
+        one: "background: url(./bg2.jpg) no-repeat center center/ cover;",
+    },
+    {
+        one: "background: url(./bg3.jpg) no-repeat center center/ cover;",
+    },
+    {
+        one: "background: url(./bg4.jpg) no-repeat center center/ cover;",
+    },
+    {
+        one: "background: url(./bg5.jpg) no-repeat center center/ cover;",
+    },
+    {
+        one: "background: url(./bg6.jpg) no-repeat center center/ cover;",
+    }
+]
+
 btn.addEventListener("click", () => {
     let random = Math.floor(Math.random() * quotes.length);
     quote.textContent = quotes[random].quote;
     author.textContent = quotes[random].author;
 })
+
+changeBg.addEventListener("click", () => {
+    let random = Math.floor(Math.random() * bgImages.length);
+    document.body.style = bgImages[random].one
+})
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const copyButton = document.getElementById('copyButton');
+    const quoteText = document.querySelector('.quote');
+
+    copyButton.addEventListener('click', function () {
+        // Create a textarea element to hold the text to be copied
+        const textarea = document.createElement('textarea');
+        textarea.value = quoteText.innerText;
+
+        // Append the textarea to the document
+        document.body.appendChild(textarea);
+
+        // Select the text in the textarea
+        textarea.select();
+        textarea.setSelectionRange(0, 99999); // For mobile devices
+
+        // Copy the selected text to the clipboard
+        document.execCommand('copy');
+
+        // Remove the textarea from the document
+        document.body.removeChild(textarea);
+
+        // Optionally, provide visual feedback to the user
+        copyButton.innerText = 'Copied!';
+        setTimeout(() => {
+            copyButton.innerText = 'Copy Quote';
+        }, 2000);
+    });
+});

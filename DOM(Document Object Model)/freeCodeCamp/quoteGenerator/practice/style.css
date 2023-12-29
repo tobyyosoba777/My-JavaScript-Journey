@@ -10,8 +10,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(90, 31, 255);
-    /* background: url(./background.jpg) no-repeat center center/ cover; */
+    /* background-color: rgb(90, 31, 255); */
+    background: url(./bg1.jpg) no-repeat center center/ cover;
     margin: 0 auto;
     text-align: center;
 }
@@ -22,19 +22,22 @@ body {
     justify-content: space-between;
     width: 750px;
     max-height: 550px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.507);
     border: 0.5px solid #707070;
+    backdrop-filter: blur(3px);
     border-radius: 12px;
     box-shadow: 1px 3px  2px;
 }
 
 .container .copy {
-    display: inline;
-    justify-content: end;
-    border-radius:  0 12px 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:  12px 12px 0 0;
+    border: 1px solid #555;
     align-items: end;
     float: right;
-    background: #fff;
+    background: #fffef7;
     /* width: 110px; */
 }
 
@@ -58,7 +61,7 @@ body {
 
 .quotes {
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
 }
 
 .author {
@@ -96,4 +99,19 @@ i {
 
 .quote {
     font-size: 28px;
+}
+
+@media screen and (max-width: 730px) {
+    .container {
+        width: 93%;
+    }
+    .button-area {
+        margin-top: 0;
+    }
+    .text-area {
+        margin-top: 0;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: center;
+    }
 }
