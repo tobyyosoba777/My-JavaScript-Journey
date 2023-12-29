@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(90, 31, 255);
+    /* background: url(./background.jpg) no-repeat center center/ cover; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 750px;
+    max-height: 550px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.5px solid #707070;
+    border-radius: 12px;
+    box-shadow: 1px 3px  2px;
+}
+
+.container .copy {
+    display: inline;
+    justify-content: end;
+    border-radius:  0 12px 0 12px;
+    align-items: end;
+    float: right;
+    background: #fff;
+    /* width: 110px; */
+}
+
+.container .copy a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.container .icon-top {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .icon-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quotes {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+i {
+    font-size: 80px;
+    padding: 10px;
+}
+
+.button-area {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-top: 23px;
+}
+
+.button-area button {
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    border: 0;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.text-area {
+    margin-top: 30px;
+    padding: 60px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 28px;
+}
