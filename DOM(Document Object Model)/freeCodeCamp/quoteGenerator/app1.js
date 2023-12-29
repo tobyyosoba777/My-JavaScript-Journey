@@ -87,6 +87,6 @@ const quotes =  [
 
 btn.addEventListener("click", () => {
     let random = Math.floor(Math.random() * quotes.length);
-    quote.innerText = quotes[random].quote;
+    quote.textContent = quotes[random].quote;
     person.textContent = quotes[random].author;
 })
