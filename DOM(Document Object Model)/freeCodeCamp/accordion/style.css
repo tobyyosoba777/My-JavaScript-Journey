@@ -46,3 +46,8 @@ body {
     height: 150px;
     /* overflow: hidden; */
 }
+
+.accordion .content-container.active .question {
+    font-size: 18px;
+    transition: .5s;
+}
