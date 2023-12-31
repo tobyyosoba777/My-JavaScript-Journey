@@ -32,6 +32,7 @@ body {
     right: -5px;
 }
 
+
 .accordion .content-container .answer {
     padding-top: 15px;
     font-size: 22px;
@@ -49,5 +50,11 @@ body {
 
 .accordion .content-container.active .question {
     font-size: 18px;
+    transition: .5s;
+}
+
+.accordion .content-container.active .question::after {
+    content: '-';
+    font-size: 30px;
     transition: .5s;
 }
