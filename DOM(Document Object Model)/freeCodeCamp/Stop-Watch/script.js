@@ -63,3 +63,7 @@ startStopBtn.addEventListener("click", function() {
         timerStatus = "stopped";
     }
 })
+
+resetBtn.addEventListener("click", () => {
+    window.clearInterval()
+})
