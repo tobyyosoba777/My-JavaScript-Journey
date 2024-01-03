@@ -8,7 +8,7 @@ import axios from 'axios';
 async function fetchData() {
     try {
         const response = await axios.get('https://www.boredapi.com/api/activity');
-        console.log(`You could ${response.data}`);
+        console.log(`You could ${response.data.activity}`);
     } catch (error) {
         console.error('Error fetching data:', error.message);
     }
