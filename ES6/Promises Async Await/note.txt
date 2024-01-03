@@ -1,0 +1,6 @@
+JavaScript Promises 
+.then() .catch()
+async and await
+
+A promise is a special type of object in JavaScript that respresents the eventual completion or failure
+of an asynchronous operation and its resulting value.
