@@ -15,3 +15,16 @@ async function fetchData() {
 }
 
 fetchData();
+
+// import axios from 'axios';
+
+const fetchData2 = async () => {
+    try {
+        const response = await axios.get('https://www.boredapi.com/api/activity');
+        console.log(`You Could Actually ${response.data.activity}`);
+    }
+    catch(error) {
+        console.log(error.message);
+    }    
+}
+fetchData2()
