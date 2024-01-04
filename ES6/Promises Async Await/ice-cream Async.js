@@ -18,7 +18,7 @@ let order = (fruit_name, call_production) => {
 
 let production = () => {
     setTimeout(() => {
-        console.log("Prod")
+        console.log("Production has started");
     }, 0);
 }
 
