@@ -23,13 +23,13 @@ let production = () => {
                 console.log(`${stocks.liquid[0]} and ${stocks.liquid[1]} was added`);
 
                 setTimeout(() => {
-                    console.log('The machine has been started');
+                    console.log('The machine was started');
 
                     setTimeout(() => {
                         console.log(`Ice cream was served on ${stocks.holder[0]}`);
 
                         setTimeout(() => {
-                            console.log(`${stocks.toppings[0]} and ${stocks.toppings[1]} were added`);
+                            console.log(`${stocks.toppings[0]} and ${stocks.toppings[1]} toppings were added`);
 
                             setTimeout(() => {
                                 console.log("Served ice cream")
