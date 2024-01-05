@@ -24,3 +24,4 @@ let order = (time, work) => {
 
 order(2000, () => console.log(`${stocks.fruits[0]} was selected`))
 
+
