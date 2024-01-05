@@ -32,7 +32,7 @@ let production = () => {
                             console.log(`${stocks.toppings[0]} and ${stocks.toppings[1]} toppings were added`);
 
                             setTimeout(() => {
-                                console.log("Served ice cream")
+                                console.log(`Served ice cream`)
                             }, 2000);
                         }, 3000);
                     }, 2000);
