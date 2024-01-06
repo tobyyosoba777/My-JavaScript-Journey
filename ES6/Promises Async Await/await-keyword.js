@@ -20,7 +20,7 @@ let toppings_choice1 = async () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
            console.log("Which toppings would you like?") 
-        }, timeout);
+        }, 3000);
     }) 
 } 
 
