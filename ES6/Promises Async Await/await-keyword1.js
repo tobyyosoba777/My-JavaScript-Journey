@@ -10,7 +10,9 @@ let is_shop_open = true;
 let toppings_choice = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            console.log("What toppings do you want?")
+            resolve(
+                console.log("What toppings do you want?")
+            )
         }, 3000);
     })
 }
