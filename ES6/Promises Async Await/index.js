@@ -28,3 +28,19 @@ const fetchData2 = async () => {
     }    
 }
 fetchData2()
+
+const fetchData3 = async () => {
+    try {
+        const response = await axios.get('https://www.boredapi.com/api/activity')
+        console.log(`If you are bored, you can ${response.data.activity}`);
+    }
+    catch(error) {
+        console.log("ERROR", error.message)
+    }
+    finally{
+        setTimeout(() => {
+            console.log("Finally, hope the suggestion was okay enough")
+        }, 5000);
+    }
+}
+fetchData3();
