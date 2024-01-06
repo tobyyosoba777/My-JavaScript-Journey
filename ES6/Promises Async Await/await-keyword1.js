@@ -11,7 +11,7 @@ let toppings_choice = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(
-                console.log("What toppings would you Prefer?")
+                console.log("What toppings would you prefer?")
             )
         }, 3000);
     })
