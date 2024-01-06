@@ -16,13 +16,6 @@ let toppings_choice = () => {
     });
 };
 
-let toppings_choice1 = async () => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-           console.log("Which toppings would you like?") 
-        }, 3000);
-    }) 
-} 
 
 let kitchen = async () => {
     console.log(" A ")
@@ -36,6 +29,6 @@ let kitchen = async () => {
 
 kitchen()
 
-console.log("Cleaning the dishses")
+console.log("doing the dishses")
 console.log("Cleaning the tables")
 console.log("Taking others orders")
