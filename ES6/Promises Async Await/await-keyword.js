@@ -11,7 +11,7 @@ let is_shop_open = true;
 let toppings_choice = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            console.log("Which toppings would yoou like")
+            console.log("Which toppings would you like")
         }, 3000);
     });
 };
@@ -35,3 +35,7 @@ let kitchen = async () => {
 }
 
 kitchen()
+
+console.log("Cleaning the dishses")
+console.log("Cleaning the tables")
+console.log("Taking others orders")
