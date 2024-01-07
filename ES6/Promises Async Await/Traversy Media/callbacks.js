@@ -19,3 +19,11 @@ const getPosts = () => {
     }, 1000);
 }
 getPosts()
+
+let createPost = (post) => {
+    setTimeout(() => {
+       posts.push(post)
+    }, 2000);
+}
+
+createPost({title: 'Post Three', body: 'This is post three'})
