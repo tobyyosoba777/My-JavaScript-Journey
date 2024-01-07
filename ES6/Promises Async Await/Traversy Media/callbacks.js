@@ -11,18 +11,20 @@ const getPosts = () => {
         output += `<li>${post.title}</li>`
         bodyy += `<p>${post.body}</p>`
        }) 
-       desc = document.querySelector('.desc')
-       desc.innerHTML = output
-       let p = document.createElement('p')
-       p.innerHTML = bodyy
-       desc.appendChild(p)
-    }, 3000);
+       document.body.innerHTML = output;
+    //    desc = document.querySelector('.desc')
+    //    desc.innerHTML = output
+    //    let p = document.createElement('p')
+    //    p.innerHTML = bodyy
+    //    desc.appendChild(p)
+    }, 1000);
 }
 getPosts()
 
-let createPost = (post) => {
+let createPost = (post, callback) => {
     setTimeout(() => {
        posts.push(post)
+       callback()
     }, 2000);
 }
 
