@@ -16,7 +16,7 @@ const getPosts = () => {
        let p = document.createElement('p')
        p.innerHTML = bodyy
        desc.appendChild(p)
-    }, 1000);
+    }, 3000);
 }
 getPosts()
 
