@@ -43,11 +43,12 @@ let kitchen = async () => {
 
         await time(2000)
         console.log(`Ice cream has been served`);
-
     }
+
     catch(error) {
         console.log("Customer Left", error)
     }
+    
     finally {
         console.log("Closing hour arrived, Shop Closed")
     }
