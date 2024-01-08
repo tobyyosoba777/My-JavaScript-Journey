@@ -28,4 +28,4 @@ let createPost = (post, callback) => {
     }, 2000);
 }
 
-createPost({title: 'Post Three', body: 'This is post three'})
+createPost({title: 'Post Three', body: 'This is post three'}, getPosts)
