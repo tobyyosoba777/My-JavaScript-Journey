@@ -17,7 +17,7 @@ const getPosts = () => {
     //    let p = document.createElement('p')
     //    p.innerHTML = bodyy
     //    desc.appendChild(p)
-    }, 2000);
+    }, 1000);
 }
 getPosts()
 
@@ -25,7 +25,7 @@ let createPost = (post, callback) => {
     setTimeout(() => {
        posts.push(post)
        callback()
-    }, 1000);
+    }, 2000);
 }
 
-createPost({title: 'Post Three', body: 'This is post three'}, getPosts)
+createPost({title: 'Post Three', body: 'This is post three'}, )
