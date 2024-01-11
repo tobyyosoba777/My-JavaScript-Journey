@@ -1,5 +1,5 @@
 const posts = [
-    {title: 'Post One', body: 'This is post one'},
+    {title: 'Post One', body: 'This is post ne'},
     {title: 'Post Two', body: 'This is post two'}
 ];
 
