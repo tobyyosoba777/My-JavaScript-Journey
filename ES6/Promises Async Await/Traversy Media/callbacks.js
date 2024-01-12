@@ -1,6 +1,6 @@
 const posts = [
     {title: 'Post One', body: 'This is post One'},
-    {title: 'Post Two', body: 'This is post two'}
+    {title: 'Post Two', body: 'This is post '}
 ];
 
 const getPosts = () => {
