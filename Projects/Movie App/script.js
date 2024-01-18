@@ -11,7 +11,7 @@ returnMovies(APILINK)
 function returnMovies(url) {
     fetch(url).then(res => res.json())
     .then(function(data) {
-        console.log(data.results);
+        console.log(data.);
         data.results.forEach(element => {
             const div_card = document.createElement('div');
             div_card.setAttribute('class', 'card');
