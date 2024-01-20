@@ -24,7 +24,7 @@ let createPost = (post) => {
             const error = false;
 
             if(!error) {
-                resolve()
+                resolve();
             } else {
                 reject('Error:something went wrong')
             }
@@ -32,4 +32,4 @@ let createPost = (post) => {
     })
 }
 
-createPost({ title: 'Post Three', body: "This is post Three" })
+createPost({ title: 'Post Three', body: "This is post Three" }).then(getPosts);
