@@ -39,7 +39,8 @@ const fetchData3 = async () => {
     }
     finally{
         setTimeout(() => {
-            console.log("Finally, hope the suggestion was okay enough")
+            console.log("Finally, hope the suggestion was okay              
+                ")
         }, 5000);
     }
 }
