@@ -11,7 +11,7 @@ var somethingElse = function() {
 var logword = function (word) {
     console.log(word);
 }
-logword("Hello world");
+logword("Hello ");
 
 //How to immediately invoke your function expression
 (function word(word) {
