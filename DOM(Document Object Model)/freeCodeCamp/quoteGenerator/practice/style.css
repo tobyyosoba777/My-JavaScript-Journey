@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: rgb(90, 31, 255); */
+    background: url(./bg1.jpg) no-repeat center center/ cover;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 750px;
+    max-height: 550px;
+    background: rgba(255, 255, 255, 0.507);
+    border: 0.5px solid #707070;
+    backdrop-filter: blur(3px);
+    border-radius: 12px;
+    box-shadow: 1px 3px  2px;
+}
+
+.container .copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:  12px 12px 0 0;
+    border: 1px solid #555;
+    align-items: end;
+    float: right;
+    background: #fffef7;
+    /* width: 110px; */
+}
+
+.container .copy a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.container .icon-top {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .icon-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quotes {
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+i {
+    font-size: 80px;
+    padding: 10px;
+}
+
+.button-area {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-top: 23px;
+}
+
+.button-area button {
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    border: 0;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#changeBg {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.1;
+    font-size: 15px;
+    background: transparent;
+    padding: 5px;
+}
+
+.button-area button:active {
+    background-color: #d1d1d1;
+    color: rgb(255, 16, 16);
+}
+
+.text-area {
+    margin-top: 30px;
+    padding: 60px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 28px;
+}
+
+footer {
+    margin-top: 25px;
+    color: #fff;
+}
+
+@media screen and (max-width: 730px) {
+    .container {
+        width: 93%;
+    }
+    .button-area {
+        margin-top: 0;
+    }
+    .text-area {
+        margin-top: 0;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    i {
+        font-size: 70px;
+        padding: 10px;
+    }
+    .quote {
+        font-size: 23px;
+    }
+}
