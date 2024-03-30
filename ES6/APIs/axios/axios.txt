@@ -1,0 +1,3 @@
+Axios is an HTTP Library or HTTP Client that makes request to your own backend or third oarty apis
+Its similar to fetch but more powerful, can be used with node js to communicate with the backend on 
+your application
